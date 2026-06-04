@@ -1,713 +1,401 @@
-<!--
-  Copyright © 2020-2026 Airbus DS SLC. All rights reserved.
--->
 <template>
-    <b-accordion class="options__option mt-2" free>
-        <b-accordion-item show>
-            <template #title>AI Detection Prompts</template>
+  <b-accordion class="ai-settings" free>
+    <b-accordion-item show>
+      <template #title>AI Detection Prompts</template>
 
-            <div class="ai-card">
-                <!-- HEADER -->
+      <div class="card">
 
-                <div class="header-row">
-                    <div class="header-left">
-                        <div class="header-icon">
-                            <img src="./icons/ai-brain.svg" class="ai-icon" alt="" />
-                        </div>
+        <!-- HEADER -->
+        <header class="card__header">
+          <div class="header">
+            <div class="header__icon">
+              <img src="./icons/ai-brain.svg" alt="AI" />
+            </div>
 
-                        <div>
-                            <h3>AI Detection Prompts</h3>
-                            <p>Configure prompts and data sources for AI detection.</p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <h2>AI Detection Prompts</h2>
+              <p>Configure prompts and data sources for AI detection.</p>
+            </div>
+          </div>
+        </header>
 
-                <!-- TOGGLE -->
+        <!-- TOGGLE -->
+        <section class="section row">
+          <div class="label">
+            Enable anomaly detection
+            <img src="./icons/info.svg" alt="" />
+          </div>
 
-                <div class="section-divider">
-                    <div class="label-inline">
-                        Enable anomaly detection
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+        </section>
 
-                        <img src="./icons/info.svg" class="info-icon" alt="" />
-                    </div>
+        <!-- SAVED PROMPTS -->
+        <section class="section">
+          <h3 class="section__title">Saved prompts</h3>
 
-                    <label class="switch">
-                        <input type="checkbox" checked />
-                        <span class="slider" />
-                    </label>
-                </div>
+          <div class="cards">
+            <div class="prompt">
+              <div class="prompt__title">Protected Site Intrusion</div>
+              <div class="prompt__text">
+                Detect unauthorized access or presence in protected sites...
+              </div>
+            </div>
 
-                <div class="section saved-prompts-section">
-                    <label class="field-label">
-                        Saved prompts
-                        <img src="./icons/info.svg" class="info-icon" alt="" />
-                    </label>
+            <div class="prompt">
+              <div class="prompt__title">Restricted Area Presence</div>
+              <div class="prompt__text">
+                Detect individuals entering restricted operational zones...
+              </div>
+            </div>
 
-                    <div class="saved-prompts">
-                        <div class="saved-prompt-card">
-                            <div class="saved-prompt-header">
-                                <span>Protected Site Intrusion</span>
-                            </div>
+            <div class="prompt">
+              <div class="prompt__title">Alarm Escalation</div>
+              <div class="prompt__text">
+                Detect alarm events requiring immediate escalation...
+              </div>
+            </div>
+          </div>
+        </section>
 
-                            <div class="saved-prompt-preview">Detect unauthorized access or presence in protected
-                                sites...</div>
-                        </div>
+        <!-- PROFILE + PROMPT -->
+        <section class="grid">
+          <div>
+            <label class="label">
+              Detection profile
+              <img src="./icons/info.svg" alt="" />
+            </label>
 
-                        <div class="saved-prompt-card">
-                            <div class="saved-prompt-header">
-                                <span>Restricted Area Presence</span>
-                            </div>
+            <select class="input">
+              <option>Protected Site Intrusion</option>
+            </select>
+          </div>
 
-                            <div class="saved-prompt-preview">Detect individuals entering restricted operational
-                                zones...</div>
-                        </div>
+          <div>
+            <label class="label">
+              Detection prompt
+              <img src="./icons/info.svg" alt="" />
+            </label>
 
-                        <div class="saved-prompt-card">
-                            <div class="saved-prompt-header">
-                                <span>Alarm Escalation</span>
-                            </div>
-
-                            <div class="saved-prompt-preview">Detect alarm events requiring immediate escalation...
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- PROFILE + PROMPT -->
-
-                <div class="content-grid">
-                    <div>
-                        <label class="field-label">
-                            Detection profile
-                            <img src="./icons/info.svg" class="info-icon" alt="" />
-                        </label>
-
-                        <select class="ai-select">
-                            <option>Protected Site Intrusion</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="field-label">
-                            Detection prompt
-                            <img src="./icons/info.svg" class="info-icon" alt="" />
-                        </label>
-
-                        <textarea rows="7" class="ai-textarea">
+            <textarea class="textarea" rows="7">
 You are an AI assistant for public safety. Detect potential unauthorized access or intrusion at protected sites.
 
-Consider unauthorized entry or presence in restricted areas, intrusion attempts, urgent radio traffic, and alarm escalations.
+Consider unauthorized entry, restricted zones, alarms, and escalation signals.
 
-Provide confidence (0-100%), evidence (key signals), uncertainty (factors reducing certainty), and recommended verification steps.
-                        </textarea>
-                    </div>
-                </div>
+Provide confidence, evidence, uncertainty, and verification steps.
+            </textarea>
+          </div>
+        </section>
 
-                <!-- DATA SOURCES -->
+        <!-- DATA SOURCES -->
+        <section class="section">
+          <h3 class="section__title">Data sources</h3>
 
-                <div class="section">
-                    <label class="field-label">
-                        Data sources
-                        <img src="./icons/info.svg" class="info-icon" alt="" />
-                    </label>
+          <div class="chips">
+            <button class="chip chip--active">Radio transcripts</button>
+            <button class="chip chip--active">Browser messages</button>
+            <button class="chip chip--active">Alarm events</button>
+            <button class="chip">Unit status</button>
+          </div>
+        </section>
 
-                    <div class="chips">
-                        <button class="chip active">
-                            <img src="./icons/check.svg" alt="" />
-                            Radio transcripts
-                        </button>
+        <!-- ACTIONS -->
+        <footer class="footer">
+          <button class="btn btn--primary">Save</button>
+        </footer>
 
-                        <button class="chip active">
-                            <img src="./icons/check.svg" alt="" />
-                            Browser messages
-                        </button>
-
-                        <button class="chip active">
-                            <img src="./icons/check.svg" alt="" />
-                            Alarm events
-                        </button>
-
-                        <button class="chip">Unit status</button>
-                    </div>
-                </div>
-
-                <!-- ACTIONS -->
-
-                <div class="actions">
-                    <button class="secondary-btn">
-                        <img src="./icons/save.svg" alt="" />
-                        Save
-                    </button>
-                </div>
-            </div>
-        </b-accordion-item>
-    </b-accordion>
+      </div>
+    </b-accordion-item>
+  </b-accordion>
 </template>
 
 <script>
-    export default {
-        name: "SettingsPrompts"
-    };
+export default {
+  name: "SettingsPrompts",
+};
 </script>
 
 <style scoped>
-    .ai-card {
-        /* original dark‑gradient background – removed */
-        background: #ffffff;
-        /* plain white background */
-        border: 1px solid #e0e0e0;
-        /* light border */
-        border-radius: 14px;
-        padding: 22px;
-        color: #000000;
-        /* default text colour for readability */
-    }
-
-    /* HEADER */
-
-    .header-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-
-        margin-bottom: 24px;
-    }
-
-    .header-left {
-        display: flex;
-        gap: 14px;
-    }
-
-    .header-icon {
-        width: 40px;
-        height: 40px;
-
-        border-radius: 10px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        background: rgba(0, 217, 255, 0.08);
-    }
-
-    .ai-icon {
-        filter: brightness(0) saturate(100%) invert(84%) sepia(33%) saturate(6434%) hue-rotate(153deg) brightness(102%) contrast(104%);
-        filter: drop-shadow(0 0 4px rgba(0, 217, 255, 0.85)) drop-shadow(0 0 12px rgba(0, 217, 255, 0.45));
-    }
-
-    .header-icon img {
-        width: 150%;
-    }
-
-    .header-left h3 {
-        margin: 0;
-        font-size: 18px;
-        font-weight: 600;
-        color: #222222;
-    }
-
-    .header-left p {
-        margin: 2px 0 0;
-        font-size: 13px;
-        color: #555555;
-    }
-
-    .collapse-icon {
-        width: 16px;
-        opacity: 0.8;
-    }
-
-    /* DIVIDER */
-
-    .section-divider {
-        border-top: 1px solid rgba(255, 255, 255, 0.06);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-
-        padding: 18px 0;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .label-inline {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-
-        color: #333333;
-        font-size: 14px;
-    }
-
-    .label-inline img {
-        width: 14px;
-        opacity: 0.6;
-    }
-
-    .info-icon img {
-        width: 200px;
-    }
-
-    /* GRID */
-
-    .content-grid {
-        margin-top: 24px;
-
-        display: grid;
-        grid-template-columns: 320px 1fr;
-        gap: 20px;
-    }
-
-    .field-label {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-
-        margin-bottom: 10px;
-
-        color: #333333;
-
-        font-size: 13px;
-    }
-
-    .field-label img {
-        width: 14px;
-        opacity: 0.6;
-    }
-
-    .ai-select,
-    .ai-textarea {
-        width: 100%;
-
-        background: #071220;
-
-        border: 1px solid rgba(80, 120, 255, 0.16);
-
-        border-radius: 10px;
-
-        color: white;
-
-        padding: 12px 14px;
-
-        font-size: 13px;
-    }
-
-    .ai-select {
-        height: 44px;
-    }
-
-    .ai-textarea {
-        resize: none;
-    }
-
-    .ai-select,
-    .ai-textarea {
-        background: #fafafa;
-        border: 1px solid #d0d0d0;
-        color: #000000;
-    }
-
-    .ai-select:focus,
-    .ai-textarea:focus {
-        border-color: #0099ff;
-        box-shadow: 0 0 0 2px rgba(0, 153, 255, 0.12);
-    }
-
-    /* CHIPS */
-
-    .section {
-        margin-top: 28px;
-    }
-
-    .chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    .chip {
-        height: 42px;
-
-        padding: 0 16px;
-
-        border-radius: 10px;
-
-        background: #071220;
-
-        border: 1px solid rgba(80, 120, 255, 0.18);
-
-        color: #333333;
-
-        font-size: 13px;
-
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .chip img {
-        width: 14px;
-    }
-
-    .chip.active {
-        border-color: #0099ff;
-        background: linear-gradient(180deg, rgba(0, 153, 255, 0.12), rgba(0, 153, 255, 0.04));
-    }
-
-    /* BOTTOM */
-
-    .bottom-grid {
-        margin-top: 28px;
-
-        display: grid;
-        grid-template-columns: 300px 1fr;
-        gap: 20px;
-    }
-
-    .segmented {
-        display: flex;
-
-        border-radius: 10px;
-        overflow: hidden;
-
-        border: 1px solid rgba(80, 120, 255, 0.18);
-    }
-
-    .segmented button {
-        flex: 1;
-
-        height: 44px;
-
-        background: #071220;
-        border: none;
-
-        color: #dbe6ff;
-
-        font-size: 13px;
-    }
-
-    .segmented button.active {
-        background: linear-gradient(180deg, rgba(126, 73, 255, 0.45), rgba(126, 73, 255, 0.25));
-
-        box-shadow: inset 0 0 0 1px rgba(161, 118, 255, 0.5);
-    }
-
-    .status-card {
-        display: flex;
-        align-items: center;
-        gap: 18px;
-
-        padding: 18px 22px;
-
-        border-radius: 12px;
-
-        background: linear-gradient(90deg, rgba(0, 255, 170, 0.12), rgba(0, 255, 170, 0.03));
-
-        border: 1px solid rgba(0, 255, 170, 0.25);
-    }
-
-    .status-icon img {
-        width: 34px;
-    }
-
-    .status-title {
-        color: white;
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    .status-text {
-        margin-top: 4px;
-
-        color: #93a3c3;
-        font-size: 13px;
-    }
-
-    /* ACTIONS */
-
-    .actions {
-        margin-top: 28px;
-
-        display: flex;
-        justify-content: flex-end;
-        gap: 12px;
-
-        flex-wrap: wrap;
-    }
-
-    .actions button {
-        color: #333333;
-    }
-
-    .secondary-btn,
-    .primary-btn {
-        height: 44px;
-
-        border-radius: 10px;
-
-        padding: 0 18px;
-
-        display: flex;
-        align-items: center;
-        gap: 8px;
-
-        font-size: 13px;
-    }
-
-    .secondary-btn {
-        background: #071220;
-
-        border: 1px solid rgba(80, 120, 255, 0.18);
-
-        color: white;
-    }
-
-    .primary-btn {
-        border: none;
-
-        color: white;
-
-        background: linear-gradient(90deg, #3670ff, #7c4dff);
-
-        min-width: 190px;
-    }
-
-    .secondary-btn img,
-    .primary-btn img {
-        width: 14px;
-    }
-
-    /* SWITCH */
-
-    .switch {
-        position: relative;
-        width: 54px;
-        height: 30px;
-    }
-
-    .switch input {
-        display: none;
-    }
-
-    .slider {
-        position: absolute;
-        inset: 0;
-
-        background: #0d213d;
-
-        border: 1px solid rgba(0, 216, 255, 0.25);
-
-        border-radius: 30px;
-    }
-
-    .slider::before {
-        content: "";
-
-        position: absolute;
-
-        width: 22px;
-        height: 22px;
-
-        right: 4px;
-        top: 3px;
-
-        background: white;
-
-        border-radius: 50%;
-    }
-
-    /* RESPONSIVE */
-
-    @media (max-width: 992px) {
-
-        .content-grid,
-        .bottom-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .actions {
-            justify-content: stretch;
-        }
-
-        .actions button {
-            width: 100%;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .ai-card {
-            padding: 16px;
-        }
-
-        .header-row {
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .header-left {
-            width: 100%;
-        }
-
-        .chip {
-            width: 100%;
-            justify-content: flex-start;
-        }
-    }
-
-    .saved-prompts {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .saved-prompt-card {
-        background: linear-gradient(180deg, rgba(17, 30, 50, 0.65), rgba(10, 18, 32, 0.65));
-
-        border: 1px solid rgba(85, 120, 255, 0.12);
-
-        border-radius: 12px;
-
-        transition: all 0.2s ease;
-
-        overflow: hidden;
-    }
-
-    .saved-prompt-card:hover {
-        border-color: rgba(0, 217, 255, 0.28);
-
-        box-shadow: 0 0 12px rgba(0, 217, 255, 0.08);
-    }
-
-    .saved-prompt-header {
-        height: 52px;
-
-        padding: 0 18px;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        cursor: pointer;
-    }
-
-    .saved-prompt-header span {
-        color: #dfe8ff;
-
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .saved-prompt-preview {
-        border-top: 1px solid rgba(255, 255, 255, 0.04);
-
-        padding: 14px 18px;
-
-        color: #8f9ec1;
-
-        font-size: 13px;
-
-        line-height: 1.5;
-    }
-
-    /* ------------------------------------------------ */
-    /* ICONS */
-    /* ------------------------------------------------ */
-
-    .header-icon img {
-        width: 18px;
-
-        filter: drop-shadow(0 0 4px rgba(0, 217, 255, 0.85)) drop-shadow(0 0 12px rgba(0, 217, 255, 0.45));
-    }
-
-    .field-label img {
-        width: 14px;
-
-        opacity: 0.7;
-    }
-
-    .chip img {
-        width: 14px;
-
-        filter: drop-shadow(0 0 3px rgba(0, 217, 255, 0.8));
-    }
-
-    /* ------------------------------------------------ */
-    /* SAVE BUTTON */
-    /* ------------------------------------------------ */
-
-    .save-btn {
-        height: 44px;
-
-        min-width: 140px;
-
-        border: 1px solid rgba(80, 120, 255, 0.18);
-
-        background: #071220;
-
-        color: white;
-
-        border-radius: 10px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-
-        transition: 0.2s;
-    }
-
-    .save-btn:hover {
-        border-color: rgba(0, 217, 255, 0.25);
-
-        box-shadow: 0 0 12px rgba(0, 217, 255, 0.08);
-
-        background: #091728;
-    }
-
-    .save-btn img {
-        width: 14px;
-    }
-
-    /* ------------------------------------------------ */
-    /* CARD GLOW */
-    /* ------------------------------------------------ */
-
-    .ai-card {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .ai-card::before {
-        content: "";
-
-        position: absolute;
-        inset: 0;
-
-        border-radius: inherit;
-
-        pointer-events: none;
-
-        box-shadow:
-            inset 0 0 0 1px rgba(76, 132, 255, 0.08),
-            0 0 40px rgba(31, 97, 255, 0.08);
-    }
-
-    .ai-card::after {
-        content: "";
-
-        position: absolute;
-
-        top: -120px;
-        right: -120px;
-
-        width: 280px;
-        height: 280px;
-
-        border-radius: 50%;
-
-        background: radial-gradient(circle, rgba(0, 217, 255, 0.12), transparent 70%);
-
-        pointer-events: none;
-    }
+/* =========================
+   BASE
+========================= */
+
+.ai-settings {
+  background: #fff;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e8ee;
+  border-radius: 14px;
+  padding: 24px;
+  color: #1f2937;
+  position: relative;
+}
+
+/* subtle depth */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  pointer-events: none;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.header__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #eef6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__icon img {
+  width: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+  margin-top: 22px;
+}
+
+.section__title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #374151;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-top: 1px solid #eef0f4;
+  border-bottom: 1px solid #eef0f4;
+}
+
+/* =========================
+   LABELS
+========================= */
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.label img {
+  width: 14px;
+  opacity: 0.6;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+.input,
+.textarea {
+  width: 100%;
+  border: 1px solid #dcdfe6;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+  background: #fff;
+  outline: none;
+}
+
+.textarea {
+  resize: none;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+/* =========================
+   PROMPT CARDS
+========================= */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.prompt {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: #fafafa;
+  transition: 0.2s;
+}
+
+.prompt:hover {
+  border-color: #3b82f6;
+  background: #f8fbff;
+}
+
+.prompt__title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.prompt__text {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+/* =========================
+   CHIPS
+========================= */
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  border: 1px solid #dcdfe6;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chip--active {
+  border-color: #3b82f6;
+  background: #eef6ff;
+  color: #1d4ed8;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 26px;
+}
+
+.btn {
+  height: 42px;
+  padding: 0 18px;
+  border-radius: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn--primary:hover {
+  background: #2563eb;
+}
+
+/* =========================
+   SWITCH
+========================= */
+
+.switch {
+  position: relative;
+  width: 46px;
+  height: 26px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  background: #e5e7eb;
+  border-radius: 999px;
+  transition: 0.2s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  left: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.2s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.switch input:checked + .slider {
+  background: #3b82f6;
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
