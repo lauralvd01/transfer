@@ -14,97 +14,57 @@
 
             <div>
               <h2>AI Detection Prompts</h2>
-              <p>Configure prompts and data sources for AI detection.</p>
+              <p>Configure and manage AI detection prompts.</p>
             </div>
           </div>
         </header>
 
-        <!-- TOGGLE -->
-        <section class="section row">
-          <div class="label">
-            Enable anomaly detection
-            <img src="./icons/info.svg" alt="" />
-          </div>
+        <!-- CREATE NEW PROMPT -->
+        <section class="section">
+          <h3 class="section__title">Create new prompt</h3>
 
-          <label class="switch">
-            <input type="checkbox" checked />
-            <span class="slider"></span>
-          </label>
+          <input
+            v-model="newPrompt.title"
+            class="input"
+            placeholder="Prompt title"
+          />
+
+          <textarea
+            v-model="newPrompt.text"
+            class="textarea mt"
+            rows="4"
+            placeholder="Prompt description..."
+          />
+
+          <button class="btn btn--primary mt" @click="addPrompt">
+            Save prompt
+          </button>
         </section>
 
         <!-- SAVED PROMPTS -->
         <section class="section">
           <h3 class="section__title">Saved prompts</h3>
 
+          <div v-if="savedPrompts.length === 0" class="empty">
+            No prompts saved yet.
+          </div>
+
           <div class="cards">
-            <div class="prompt">
-              <div class="prompt__title">Protected Site Intrusion</div>
-              <div class="prompt__text">
-                Detect unauthorized access or presence in protected sites...
+            <div
+              v-for="(prompt, index) in savedPrompts"
+              :key="index"
+              class="prompt"
+            >
+              <div class="prompt__title">
+                {{ prompt.title }}
               </div>
-            </div>
 
-            <div class="prompt">
-              <div class="prompt__title">Restricted Area Presence</div>
               <div class="prompt__text">
-                Detect individuals entering restricted operational zones...
-              </div>
-            </div>
-
-            <div class="prompt">
-              <div class="prompt__title">Alarm Escalation</div>
-              <div class="prompt__text">
-                Detect alarm events requiring immediate escalation...
+                {{ prompt.text }}
               </div>
             </div>
           </div>
         </section>
-
-        <!-- PROFILE + PROMPT -->
-        <section class="grid">
-          <div>
-            <label class="label">
-              Detection profile
-              <img src="./icons/info.svg" alt="" />
-            </label>
-
-            <select class="input">
-              <option>Protected Site Intrusion</option>
-            </select>
-          </div>
-
-          <div>
-            <label class="label">
-              Detection prompt
-              <img src="./icons/info.svg" alt="" />
-            </label>
-
-            <textarea class="textarea" rows="7">
-You are an AI assistant for public safety. Detect potential unauthorized access or intrusion at protected sites.
-
-Consider unauthorized entry, restricted zones, alarms, and escalation signals.
-
-Provide confidence, evidence, uncertainty, and verification steps.
-            </textarea>
-          </div>
-        </section>
-
-        <!-- DATA SOURCES -->
-        <section class="section">
-          <h3 class="section__title">Data sources</h3>
-
-          <div class="chips">
-            <button class="chip chip--active">Radio transcripts</button>
-            <button class="chip chip--active">Browser messages</button>
-            <button class="chip chip--active">Alarm events</button>
-            <button class="chip">Unit status</button>
-          </div>
-        </section>
-
-        <!-- ACTIONS -->
-        <footer class="footer">
-          <button class="btn btn--primary">Save</button>
-        </footer>
 
       </div>
     </b-accordion-item>
@@ -114,10 +74,70 @@ Provide confidence, evidence, uncertainty, and verification steps.
 <script>
 export default {
   name: "SettingsPrompts",
+
+  data() {
+    return {
+      savedPrompts: [],
+      newPrompt: {
+        title: "",
+        text: ""
+      }
+    };
+  },
+
+  mounted() {
+    this.loadPrompts();
+  },
+
+  methods: {
+    loadPrompts() {
+      const stored = localStorage.getItem("ai_prompts");
+      if (stored) {
+        this.savedPrompts = JSON.parse(stored);
+      }
+    },
+
+    saveToStorage() {
+      localStorage.setItem(
+        "ai_prompts",
+        JSON.stringify(this.savedPrompts)
+      );
+    },
+
+    addPrompt() {
+      if (!this.newPrompt.title || !this.newPrompt.text) return;
+
+      const prompt = {
+        id: Date.now(),
+        title: this.newPrompt.title,
+        text: this.newPrompt.text
+      };
+
+      this.savedPrompts.unshift(prompt);
+      this.saveToStorage();
+
+      // reset form
+      this.newPrompt.title = "";
+      this.newPrompt.text = "";
+    }
+  }
 };
 </script>
-
 <style scoped>
+
+.mt {
+  margin-top: 12px;
+}
+
+.empty {
+  padding: 14px;
+  font-size: 13px;
+  color: #6b7280;
+  border: 1px dashed #dcdfe6;
+  border-radius: 10px;
+  background: #fafafa;
+}
+            
 /* =========================
    BASE
 ========================= */
