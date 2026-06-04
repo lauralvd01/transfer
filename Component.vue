@@ -6,66 +6,88 @@
       <div class="card">
 
         <!-- HEADER -->
-        <header class="card__header">
-          <div class="header">
-            <div class="header__icon">
-              <img src="./icons/ai-brain.svg" alt="AI" />
-            </div>
+        <header class="header">
+          <div class="header__icon">
+            <img src="./icons/ai-brain.svg" alt="AI" />
+          </div>
 
-            <div>
-              <h2>AI Detection Prompts</h2>
-              <p>Configure and manage AI detection prompts.</p>
-            </div>
+          <div>
+            <h2>AI Detection Prompts</h2>
+            <p>Manage detection prompts and data sources.</p>
           </div>
         </header>
 
-        <!-- CREATE NEW PROMPT -->
-        <section class="section">
-          <h3 class="section__title">Create new prompt</h3>
+        <!-- ENABLE TOGGLE -->
+        <section class="toggle">
+          <span>Enable anomaly detection</span>
 
-          <input
-            v-model="newPrompt.title"
-            class="input"
-            placeholder="Prompt title"
-          />
-
-          <textarea
-            v-model="newPrompt.text"
-            class="textarea mt"
-            rows="4"
-            placeholder="Prompt description..."
-          />
-
-          <button class="btn btn--primary mt" @click="addPrompt">
-            Save prompt
-          </button>
+          <label class="switch">
+            <input type="checkbox" v-model="enabled" />
+            <span class="slider"></span>
+          </label>
         </section>
 
-        <!-- SAVED PROMPTS -->
-        <section class="section">
-          <h3 class="section__title">Saved prompts</h3>
+        <!-- EVERYTHING DISABLED WHEN OFF -->
+        <div v-if="enabled" class="layout">
 
-          <div v-if="savedPrompts.length === 0" class="empty">
-            No prompts saved yet.
-          </div>
+          <!-- LEFT: LIST -->
+          <aside class="sidebar">
 
-          <div class="cards">
+            <div class="sidebar__title">Saved prompts</div>
+
             <div
-              v-for="(prompt, index) in savedPrompts"
-              :key="index"
-              class="prompt"
+              class="item new"
+              :class="{ active: selectedId === 'new' }"
+              @click="selectNew"
             >
-              <div class="prompt__title">
-                {{ prompt.title }}
-              </div>
+              + New prompt
+            </div>
 
-              <div class="prompt__text">
-                {{ prompt.text }}
+            <div
+              v-for="p in prompts"
+              :key="p.id"
+              class="item"
+              :class="{ active: selectedId === p.id }"
+              @click="selectPrompt(p)"
+            >
+              {{ p.title }}
+            </div>
+
+          </aside>
+
+          <!-- RIGHT: EDITOR -->
+          <main class="editor">
+
+            <div class="field">
+              <label>Prompt title</label>
+              <input v-model="activePrompt.title" class="input" />
+            </div>
+
+            <div class="field">
+              <label>Detection prompt</label>
+              <textarea v-model="activePrompt.text" class="textarea" rows="8" />
+            </div>
+
+            <div class="field">
+              <label>Data sources</label>
+
+              <div class="chips">
+                <button class="chip" :class="{ on: true }">Radio</button>
+                <button class="chip" :class="{ on: true }">Browser</button>
+                <button class="chip" :class="{ on: true }">Alarms</button>
+                <button class="chip">Unit status</button>
               </div>
             </div>
-          </div>
-        </section>
 
+            <div class="actions">
+              <button class="btn" @click="savePrompt">
+                Save
+              </button>
+            </div>
+
+          </main>
+
+        </div>
       </div>
     </b-accordion-item>
   </b-accordion>
@@ -77,8 +99,25 @@ export default {
 
   data() {
     return {
-      savedPrompts: [],
-      newPrompt: {
+      enabled: true,
+
+      prompts: [
+        {
+          id: 1,
+          title: "Protected Site Intrusion",
+          text: "Detect unauthorized access at protected sites..."
+        },
+        {
+          id: 2,
+          title: "Restricted Area Presence",
+          text: "Detect presence in restricted zones..."
+        }
+      ],
+
+      selectedId: null,
+
+      activePrompt: {
+        id: null,
         title: "",
         text: ""
       }
@@ -86,83 +125,52 @@ export default {
   },
 
   mounted() {
-    this.loadPrompts();
+    this.selectPrompt(this.prompts[0]);
   },
 
   methods: {
-    loadPrompts() {
-      const stored = localStorage.getItem("ai_prompts");
-      if (stored) {
-        this.savedPrompts = JSON.parse(stored);
-      }
+    selectPrompt(p) {
+      this.selectedId = p.id;
+      this.activePrompt = { ...p };
     },
 
-    saveToStorage() {
-      localStorage.setItem(
-        "ai_prompts",
-        JSON.stringify(this.savedPrompts)
-      );
-    },
-
-    addPrompt() {
-      if (!this.newPrompt.title || !this.newPrompt.text) return;
-
-      const prompt = {
+    selectNew() {
+      this.selectedId = "new";
+      this.activePrompt = {
         id: Date.now(),
-        title: this.newPrompt.title,
-        text: this.newPrompt.text
+        title: "",
+        text: ""
       };
+    },
 
-      this.savedPrompts.unshift(prompt);
-      this.saveToStorage();
+    savePrompt() {
+      const existingIndex = this.prompts.findIndex(
+        p => p.id === this.activePrompt.id
+      );
 
-      // reset form
-      this.newPrompt.title = "";
-      this.newPrompt.text = "";
+      if (existingIndex >= 0) {
+        this.prompts.splice(existingIndex, 1, { ...this.activePrompt });
+      } else {
+        this.prompts.unshift({ ...this.activePrompt });
+      }
+
+      this.selectedId = this.activePrompt.id;
     }
   }
 };
 </script>
+
 <style scoped>
 
-.mt {
-  margin-top: 12px;
-}
-
-.empty {
-  padding: 14px;
-  font-size: 13px;
-  color: #6b7280;
-  border: 1px dashed #dcdfe6;
-  border-radius: 10px;
-  background: #fafafa;
-}
-            
 /* =========================
-   BASE
+   CARD
 ========================= */
 
-.ai-settings {
-  background: #fff;
-}
-
 .card {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #e6e8ee;
   border-radius: 14px;
-  padding: 24px;
-  color: #1f2937;
-  position: relative;
-}
-
-/* subtle depth */
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-  pointer-events: none;
+  padding: 20px;
 }
 
 /* =========================
@@ -171,15 +179,16 @@ export default {
 
 .header {
   display: flex;
-  gap: 14px;
+  gap: 12px;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .header__icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
+  width: 40px;
+  height: 40px;
   background: #eef6ff;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +201,6 @@ export default {
 h2 {
   margin: 0;
   font-size: 18px;
-  font-weight: 600;
 }
 
 p {
@@ -202,114 +210,103 @@ p {
 }
 
 /* =========================
-   SECTIONS
+   TOGGLE
 ========================= */
 
-.section {
-  margin-top: 22px;
-}
-
-.section__title {
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #374151;
-}
-
-.row {
+.toggle {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 14px 0;
   border-top: 1px solid #eef0f4;
   border-bottom: 1px solid #eef0f4;
+  margin-bottom: 16px;
 }
 
 /* =========================
-   LABELS
+   LAYOUT
 ========================= */
 
-.label {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 18px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+  border-right: 1px solid #eef0f4;
+  padding-right: 12px;
+}
+
+.sidebar__title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.item {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
   font-size: 13px;
   color: #374151;
+  margin-bottom: 6px;
 }
 
-.label img {
-  width: 14px;
-  opacity: 0.6;
+.item:hover {
+  background: #f3f6ff;
+}
+
+.item.active {
+  background: #eaf2ff;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.item.new {
+  border: 1px dashed #cbd5e1;
+  color: #2563eb;
 }
 
 /* =========================
-   INPUTS
+   EDITOR
 ========================= */
+
+.editor {
+  padding-left: 6px;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: #374151;
+}
 
 .input,
 .textarea {
   width: 100%;
   border: 1px solid #dcdfe6;
   border-radius: 10px;
-  padding: 10px 12px;
+  padding: 10px;
   font-size: 13px;
-  background: #fff;
   outline: none;
 }
 
-.textarea {
-  resize: none;
-}
-
-.input:focus,
-.textarea:focus {
+.textarea:focus,
+.input:focus {
   border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
-}
-
-/* =========================
-   PROMPT CARDS
-========================= */
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.prompt {
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 12px 14px;
-  background: #fafafa;
-  transition: 0.2s;
-}
-
-.prompt:hover {
-  border-color: #3b82f6;
-  background: #f8fbff;
-}
-
-.prompt__title {
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.prompt__text {
-  font-size: 13px;
-  color: #6b7280;
-  margin-top: 4px;
-}
-
-/* =========================
-   GRID
-========================= */
-
-.grid {
-  display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 18px;
-  margin-top: 22px;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.1);
 }
 
 /* =========================
@@ -318,52 +315,45 @@ p {
 
 .chips {
   display: flex;
+  gap: 8px;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .chip {
   border: 1px solid #dcdfe6;
-  background: #fff;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 999px;
-  font-size: 13px;
-  cursor: pointer;
-  transition: 0.2s;
+  font-size: 12px;
+  background: #fff;
 }
 
-.chip--active {
+.chip.on {
+  background: #eaf2ff;
   border-color: #3b82f6;
-  background: #eef6ff;
-  color: #1d4ed8;
+  color: #2563eb;
 }
 
 /* =========================
-   BUTTONS
+   ACTIONS
 ========================= */
 
-.footer {
+.actions {
+  margin-top: 16px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 26px;
 }
 
 .btn {
-  height: 42px;
-  padding: 0 18px;
-  border-radius: 10px;
-  font-size: 13px;
+  background: #2563eb;
+  color: #fff;
   border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-.btn--primary {
-  background: #3b82f6;
-  color: white;
-}
-
-.btn--primary:hover {
-  background: #2563eb;
+.btn:hover {
+  background: #1d4ed8;
 }
 
 /* =========================
@@ -372,8 +362,8 @@ p {
 
 .switch {
   position: relative;
-  width: 46px;
-  height: 26px;
+  width: 44px;
+  height: 24px;
 }
 
 .switch input {
@@ -391,14 +381,13 @@ p {
 .slider::before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   top: 3px;
   left: 3px;
   background: white;
   border-radius: 50%;
   transition: 0.2s;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .switch input:checked + .slider {
@@ -407,15 +396,5 @@ p {
 
 .switch input:checked + .slider::before {
   transform: translateX(20px);
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
 }
 </style>
