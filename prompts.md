@@ -1,0 +1,5 @@
+R1 — "If several low-priority messages mention the same place within a few minutes, flag a possible coordinated incident — especially anything about vehicles positioned for an escape."
+R2 — "Tell me if a group chat that's usually active suddenly goes quiet, or a quiet one suddenly lights up."
+R3 — "Watch for messages about people claiming to be staff, maintenance or contractors near restricted or high-value areas without verified credentials."
+R4 — "If a unit reports losing contact or comms trouble near a sensitive zone, surface it next to anything else happening there."
+R5 — "The Denon wing / Galerie d'Apollon is high-value — raise sensitivity for anything within 200 m."
