@@ -1,0 +1,896 @@
+10:58:15.791 SWSIPVOIP2.enableLog()
+10:58:15.803 undefined
+10:58:17.823 description.js:256 Entry IDLE state
+(anonymous) @ description.js:256
+(anonymous) @ index.js:327
+(anonymous) @ index.js:417
+(anonymous) @ index.js:75
+(anonymous) @ index.js:66
+(anonymous) @ methods.js:33
+(anonymous) @ methods.js:178
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:58:17.855 index.js:356 Transitioning on event  {type: 'COMMAND_START', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:58:17.858 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.858Z | SWSIPVOIP2:Transport #1: [url: undefined]: New transport +0ms
+10:58:17.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.859Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063]: connect() +1ms
+10:58:17.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.859Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063]: Connecting +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - subscriberMsisdn: 12311 +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - subscriberLastname: _conv test +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - subscriberFirstname: User 1 +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - getSubscriberToken +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - swTo: group:58979 +0ms
+10:58:17.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.861Z | SWSIPVOIP2:Call  - sessionId: group:58979 +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call  - sessionType: PoC +1ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call  - sessionMedia: audio +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call  - autoReconnect: true +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call  - captureOptions: +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call  - playOptions: +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call    - rendererRemote: Element audio id: 'media-audio-webrtc-uuid-4607D05C-1063-4F34-A98F-DFC91C093B7F' / srcObj: ['No stream'] [muted: 'false'] [paused: 'true'] [volume: '1'] +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call    - shouldRecord: true +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call    - gain: undefined +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call    - sinkId: undefined +0ms
+10:58:17.862 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.862Z | SWSIPVOIP2:Call    - useHTMLElementForAudio: undefined +0ms
+10:58:17.863 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.863Z | SWSIPVOIP2:MediaHandler [Session #1] new MediaHandler +0ms
+10:58:17.863 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.863Z | SWSIPVOIP2:MediaHandler [Session #1] Setting renderer remote: Element audio id: 'media-audio-webrtc-uuid-4607D05C-1063-4F34-A98F-DFC91C093B7F' / srcObj: ['No stream'] [muted: 'false'] [paused: 'true'] [volume: '1'] +0ms
+10:58:17.864 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.863Z | SWSIPVOIP2:ERROR:MediaHandler [Session #1] Cannot unmute play: no RTC session nor remote mediastream +0ms
+10:58:17.864 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.864Z | SWSIPVOIP2:FloorControl No indicator change as no MpcClient has been created +0ms
+10:58:17.864 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.864Z | SWSIPVOIP2:FloorControl Set Functional Alias can not be set, missing MpcClient +0ms
+10:58:17.866 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.866Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Got susbcriber token +4ms
+10:58:17.887 index.js:379 Performing transition  COMMAND_START  :  IDLE  ->  CONNECTING
+(anonymous) @ index.js:379
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:58:17.888 description.js:409 Entry CONNECTING state
+(anonymous) @ description.js:409
+(anonymous) @ index.js:327
+(anonymous) @ index.js:341
+await in (anonymous)
+(anonymous) @ index.js:380
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:58:17.889 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.888Z | SWSIPVOIP2:ERROR:MediaHandler [Session #1] Cannot mute play: no RTC session nor remote mediastream +25ms
+10:58:17.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.919Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Got mediastream: Stream: f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7[audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  +53ms
+10:58:17.932 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.932Z | SWSIPVOIP2:MediaHandlerAudio Creating MediaHandlerAudio for stream: Stream: f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7[audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  +0ms
+10:58:17.933 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.933Z | SWSIPVOIP2:MediaHandler [Session #1] Track [audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  settings: {	"autoGainControl": true,	"channelCount": 1,	"deviceId": "default",	"echoCancellation": true,	"groupId": "517a5661d54be9a6a774f9fb63d4e4be41129471e0d2a71ec1932fa65dbb3e62",	"latency": 0.01,	"noiseSuppression": true,	"sampleRate": 48000,	"sampleSize": 16,	"voiceIsolation": false} +70ms
+10:58:17.933 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.933Z | SWSIPVOIP2:MediaHandler [Session #1] Track [audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  capabilities: {	"autoGainControl": [		true,		false	],	"channelCount": {		"max": 2,		"min": 1	},	"deviceId": "default",	"echoCancellation": [		true,		false,		"remote-only"	],	"groupId": "517a5661d54be9a6a774f9fb63d4e4be41129471e0d2a71ec1932fa65dbb3e62",	"latency": {		"max": 0.021333,		"min": 0.01	},	"noiseSuppression": [		true,		false	],	"sampleRate": {		"max": 48000,		"min": 48000	},	"sampleSize": {		"max": 16,		"min": 16	},	"voiceIsolation": [		true,		false	]} +0ms
+10:58:17.933 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.933Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Using mediastream: Stream: f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7[audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  +14ms
+10:58:17.933 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.933Z | SWSIPVOIP2:Call UA UA #1 #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: CONNECTING (0)] is still connecting, Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  will wait for it to actually connect before proceeding +0ms
+10:58:17.934 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.934Z | SWSIPVOIP2:MediaHandlerAudio statechange: running - stream: Stream: f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7[audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  +2ms
+10:58:17.937 index.js:356 Transitioning on event  {type: 'NODE_EVENT_EMITTED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+value @ webchat-sdk_4.2.398.esm.js:17984
+value @ webchat-sdk_4.2.398.esm.js:18076
+settingsUpdate @ webchat-sdk_4.2.398.esm.js:18166
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18393
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18392
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18858
+(anonymous) @ loader.js:272
+(anonymous) @ index.js:29
+setTimeout
+(anonymous) @ index.js:46
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+baseWatchOptions.call @ chunk-7TQ6PCU5.js?v=e5ead889:3213
+job @ chunk-7TQ6PCU5.js?v=e5ead889:1563
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+flushJobs @ chunk-7TQ6PCU5.js?v=e5ead889:2790
+Promise.then
+queueFlush @ chunk-7TQ6PCU5.js?v=e5ead889:2705
+queueJob @ chunk-7TQ6PCU5.js?v=e5ead889:2700
+effect2.scheduler @ chunk-7TQ6PCU5.js?v=e5ead889:7583
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:1861
+endBatch @ chunk-7TQ6PCU5.js?v=e5ead889:660
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:936
+add @ chunk-7TQ6PCU5.js?v=e5ead889:1152
+(anonymous) @ unindexed.js:56
+(anonymous) @ unordered.js:53
+(anonymous) @ conducer.js:61
+(anonymous) @ methods.js:31
+(anonymous) @ methods.js:159
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:58:17.985 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.985Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Connected open +126ms
+10:58:17.985 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.985Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: clearing connection timeout 4642 +0ms
+10:58:17.985 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.985Z | SWSIPVOIP2:UA Transport connects to wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 +0ms
+10:58:17.986 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.986Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Using mediastream: Stream: f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7[audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  +52ms
+10:58:17.987 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.987Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: connect() +2ms
+10:58:17.988 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.988Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: WebSocket wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 is already connected, recall onconnect +1ms
+10:58:17.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.991Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +201 | mpc_client_set_ssrc | Client ssrc updated to 3264600172 +0ms
+10:58:17.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.991Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +236 | mpc_client_set_identity | Client [id: 12311] [ssrc: 3264600172] identity updated to: '12311' +0ms
+10:58:17.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.991Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +240 | mpc_client_set_priority | Client [id: 12311] [ssrc: 3264600172] priority updated to: 0 +0ms
+10:58:17.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.991Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +293 | mpc_client_set_indicator | Client [id: 12311] [ssrc: 3264600172] indicator updated to: [0x8000] +0ms
+10:58:17.992 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.992Z | SWSIPVOIP2:FloorControl Created MpcClient: Client [id: 12311] [ssrc: 3264600172] [state: no permission (1)] with lib 0.4.26 (7a2f387e7e7968586fe15193dd4cf1309272c29a) +128ms
+10:58:17.992 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.992Z | SWSIPVOIP2:FloorControl Setting datachannel 'mcptt' (-) +0ms
+10:58:17.992 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.992Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +4ms
+10:58:17.994 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.994Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] negotiationneeded, gathering "new", connection: "new" +0ms
+10:58:17.997 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.997Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] signalingstatechange, gathering "new", connection: "new" +3ms
+10:58:17.997 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:17.997Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] icegatheringstatechange, gathering "gathering", connection: "new" +0ms
+10:58:18.110 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.110Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] icegatheringstatechange, gathering "complete", connection: "new" +113ms
+10:58:18.113 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.113Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (2023 bytes): INVITE sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK7125494Max-Forwards: 69To: <sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nt7mjue88aCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6157 INVITEtoken: oauth:MjhhNjY5YzExODE4OTMxY2NlYTlkMWFmZTdhZGQzZDU4MTgzNjNiYWFmZTE3M2YwNzczMjM4ZTgyMTZjYjdjNwsessionid: group:58979sessionmedia: audiosessiontype: PoCswto: group:58979Contact: <sip:ikbjpj83@e15mpprip0lv.invalid;transport=ws;ob>Content-Type: application/sdpAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: ice,replaces,outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 1220v=0o=- 1156882137458681942 2 IN IP4 127.0.0.1s=-t=0 0a=extmap-allow-mixeda=msid-semantic: WMS f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7a=group:BUNDLE 0 1m=audio 9 UDP/TLS/RTP/SAVPF 111 110c=IN IP4 0.0.0.0a=rtpmap:111 opus/48000/2a=rtpmap:110 telephone-event/48000a=fmtp:111 minptime=10;useinbandfec=1;stereo=0;maxaveragebitrate=28000a=rtcp:9 IN IP4 0.0.0.0a=rtcp-fb:111 transport-cca=setup:actpassa=mid:0a=msid:f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7 7aacd74d-31a4-420f-928f-36af34f0c243a=sendrecva=ice-ufrag:hAeda=ice-pwd:dN+NJNxIapIvwUphGyPLS1W1a=fingerprint:sha-256 07:67:08:71:28:77:E1:DF:A7:D7:4A:32:6C:38:50:3A:D9:AD:D5:C0:52:AF:C3:97:65:91:07:0F:A3:0D:F0:1Aa=ice-options:tricklea=ssrc:646456233 cname:29oBgP4S/7IVZAxGa=ssrc:646456233 msid:f581e9cd-ff69-4e65-9bfb-28f3fba0bbb7 7aacd74d-31a4-420f-928f-36af34f0c243a=rtcp-muxa=rtcp-rsizem=application 9 UDP/DTLS/SCTP webrtc-datachannelc=IN IP4 0.0.0.0a=setup:actpassa=mid:1a=ice-ufrag:hAeda=ice-pwd:dN+NJNxIapIvwUphGyPLS1W1a=fingerprint:sha-256 07:67:08:71:28:77:E1:DF:A7:D7:4A:32:6C:38:50:3A:D9:AD:D5:C0:52:AF:C3:97:65:91:07:0F:A3:0D:F0:1Aa=ice-options:tricklea=sctp-port:5000a=max-message-size:262144 +121ms
+10:58:18.113 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.113Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] icecandidate, gathering "complete", connection: "new": ? +3ms
+10:58:18.169 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.169Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (509 bytes)SIP/2.0 100 TryingVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK7125494;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6157 INVITEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nt7mjue88aTo: <sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278698.135609.667307234User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +56ms
+10:58:18.361 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.361Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +376ms
+10:58:18.361 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.361Z | SWSIPVOIP2:FloorControl Unknown event: undefined +369ms
+10:58:18.362 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.362Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK1384317Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=5tu1apla5lCall-ID: k2ttuh5j52nl5aqc1a5cCSeq: 6807 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +192ms
+10:58:18.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +498ms
+10:58:18.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +499ms
+10:58:18.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:18.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK4345235Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=10aad09omkCall-ID: k2ttuf3qmlrtncimao24CSeq: 5549 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +499ms
+10:58:19.233 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.233Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (586 bytes)SIP/2.0 500 Server Internal ErrorVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK1384317;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttuh5j52nl5aqc1a5cContact: <sips:any@10.38.100.134:5063>Content-Type: application/jsonCSeq: 6807 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=5tu1apla5lTo: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278698.382131.1957954225User-Agent: swengine v3.14 r3.14.119Content-Length: 26{"error":"INVALID_INVITE"} +373ms
+10:58:19.234 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.234Z | SWSIPVOIP2:ERROR:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio] : Server error: INVALID_INVITE +0ms
+10:58:19.235 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.235Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (585 bytes)SIP/2.0 500 Server Internal ErrorVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK4345235;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttuf3qmlrtncimao24Contact: <sips:any@10.38.100.134:5063>Content-Type: application/jsonCSeq: 5549 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=10aad09omkTo: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278698.882025.311904136User-Agent: swengine v3.14 r3.14.119Content-Length: 26{"error":"INVALID_INVITE"} +2ms
+10:58:19.235 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.235Z | SWSIPVOIP2:ERROR:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio] : Server error: INVALID_INVITE +1ms
+10:58:19.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +501ms
+10:58:19.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:19.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK6989117Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=01t662lqpeCall-ID: k2ttuhg7h0tp79mqdo60CSeq: 3116 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +125ms
+10:58:19.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.418Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (586 bytes)SIP/2.0 500 Server Internal ErrorVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK6989117;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttuhg7h0tp79mqdo60Contact: <sips:any@10.38.100.134:5063>Content-Type: application/jsonCSeq: 3116 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=01t662lqpeTo: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278699.380857.2126308655User-Agent: swengine v3.14 r3.14.119Content-Length: 26{"error":"INVALID_INVITE"} +58ms
+10:58:19.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.419Z | SWSIPVOIP2:ERROR:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio] : Server error: INVALID_INVITE +184ms
+10:58:19.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +500ms
+10:58:19.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:19.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5669102Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gpqfeffjdbCall-ID: k2ttu9ku61rn9g4qcnfhCSeq: 6380 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:19.871 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.871Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (1801 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK7125494;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>Content-Type: application/sdpCSeq: 6157 INVITEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nt7mjue88alargegroup: 3rtpclid: cvWIGEk5uyQHBM0AYpRUzJ6Grtpcltype: RTPHUBsessionpriority: 0To: <sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278698.135609.667307234User-Agent: swengine v3.14 r3.14.119Content-Length: 1173v=0o=hub3.14.119..cvWIGEk5uyQHBM0AYpRUzJ6G 1784278699833 1784278699833 IN IP4 10.38.100.134s=-t=0 0a=ice-litea=fingerprint:sha-256 BF:62:7D:53:B0:1F:83:A0:E3:83:EB:D2:76:0D:71:55:0B:F6:A7:36:1C:BB:1F:77:25:2B:03:19:BA:72:06:5Fa=group:BUNDLE 0 1m=audio 20573 UDP/TLS/RTP/SAVPF 111 110c=IN IP4 10.38.100.134a=rtpmap:111 opus/48000/2a=rtpmap:110 telephone-event/48000a=ptime:20a=mid:0a=rtcp-fb:111 transport-cca=rtcp-muxa=rtcp-rsizea=ice-litea=fingerprint:sha-256 BF:62:7D:53:B0:1F:83:A0:E3:83:EB:D2:76:0D:71:55:0B:F6:A7:36:1C:BB:1F:77:25:2B:03:19:BA:72:06:5Fa=ice-ufrag:DzQwF8kk6OTimC70a=ice-pwd:nDiZvALXMnWGORVheCDKyMSua=setup:passivea=fmtp:111 minptime=10;useinbandfec=1;stereo=0;maxaveragebitrate=28000a=candidate:0 1 udp 2130706431 10.38.100.134 20573 typ hosta=candidate:0 2 udp 2130706430 10.38.100.134 20573 typ hosta=sendrecvm=application 20573 UDP/DTLS/SCTP webrtc-datachannela=mid:1c=IN IP4 10.38.100.134a=candidate:0 1 udp 2130706431 10.38.100.134 20573 typ hosta=ice-ufrag:DzQwF8kk6OTimC70a=ice-pwd:nDiZvALXMnWGORVheCDKyMSua=sendrecva=setup:passivea=sctp-port:5000a=max-message-size:1073741823 +11ms
+10:58:19.874 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.874Z | SWSIPVOIP2:MediaHandler [Session #1] Setting sender: [audio ('Default'): 7aacd74d-31a4-420f-928f-36af34f0c243 [enabled: true] [state: live]]  / cname: 29oBgP4S/7IVZAxG} +2s
+10:58:19.876 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.876Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] iceconnectionstatechange, gathering "complete", connection: "checking" (was: "new") +2s
+10:58:19.876 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.876Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] iceconnectionstatechange, gathering "complete", connection: "checking" +0ms
+10:58:19.877 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.877Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] signalingstatechange, gathering "complete", connection: "checking" +1ms
+10:58:19.877 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.877Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] track, gathering ""complete", connection: "checking": remote audio/386f653a-9b9c-4c1c-a637-59da686b569e +0ms
+10:58:19.878 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.878Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] Track [audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  settings: {	"deviceId": "386f653a-9b9c-4c1c-a637-59da686b569e",	"sampleSize": 16} +1ms
+10:58:19.878 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.878Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] Track [audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  capabilities: {	"autoGainControl": [		false	],	"deviceId": "386f653a-9b9c-4c1c-a637-59da686b569e",	"echoCancellation": [		false	],	"noiseSuppression": [		false	],	"sampleSize": {		"max": 16,		"min": 16	},	"voiceIsolation": [		false	]} +0ms
+10:58:19.878 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.878Z | SWSIPVOIP2:MediaHandler [Session #1] Setting new remote mediastream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +4ms
+10:58:19.878 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.878Z | SWSIPVOIP2:MediaHandlerAudio Creating MediaHandlerAudio for stream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +2s
+10:58:19.879 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.879Z | SWSIPVOIP2:MediaHandlerAudio Plugged stream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  as source for AudioContext () +1ms
+10:58:19.879 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.879Z | SWSIPVOIP2:MediaHandler [Session #1] Setting receiver: [audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +1ms
+10:58:19.879 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.879Z | SWSIPVOIP2:MediaHandler [Session #1] Plugging Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  to renderer Element audio id: 'media-audio-webrtc-uuid-4607D05C-1063-4F34-A98F-DFC91C093B7F' / srcObj: ['No stream'] [muted: 'false'] [paused: 'true'] [volume: '1'] +0ms
+10:58:19.880 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.880Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  onAccepted +19ms
+10:58:19.880 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.880Z | SWSIPVOIP2:Call VoIP call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  largegroup: 3 +1ms
+10:58:19.880 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.880Z | SWSIPVOIP2:Call VoIP call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  call-id: k2ttub3s2dekkiuhm4hd +0ms
+10:58:19.880 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.880Z | SWSIPVOIP2:Call VoIP call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  cseq: 6157 +0ms
+10:58:19.880 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.880Z | SWSIPVOIP2:MediaHandler [Session #1] unmuteCapture: {"audio":true,"video":true} +1ms
+10:58:19.881 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.881Z | SWSIPVOIP2:MediaHandler [Session #1] Successfully unmuted audio play: Element audio id: 'media-audio-webrtc-uuid-4607D05C-1063-4F34-A98F-DFC91C093B7F' / srcObj: ['Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]] '] [muted: 'true'] [paused: 'true'] [volume: '1'] +1ms
+10:58:19.882 index.js:356 Transitioning on event  {type: 'SDK_VOIP_CALL_IS_LARGE_GROUP', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12052
+(anonymous) @ webchat-sdk_4.2.398.esm.js:302
+(anonymous) @ webchat-sdk_4.2.398.esm.js:361
+a @ webchat-sdk_4.2.398.esm.js:84
+s @ webchat-sdk_4.2.398.esm.js:98
+(anonymous) @ webchat-sdk_4.2.398.esm.js:103
+(anonymous) @ webchat-sdk_4.2.398.esm.js:95
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12092
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14102
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_accepted @ swsipvoip2-4.2.398.cjs:9851
+(anonymous) @ swsipvoip2-4.2.398.cjs:9620
+Promise.then
+(anonymous) @ swsipvoip2-4.2.398.cjs:9619
+Promise.then
+_receiveInviteResponse @ swsipvoip2-4.2.398.cjs:9616
+(anonymous) @ swsipvoip2-4.2.398.cjs:9520
+_receiveResponse @ swsipvoip2-4.2.398.cjs:5318
+(anonymous) @ swsipvoip2-4.2.398.cjs:5300
+receiveResponse @ swsipvoip2-4.2.398.cjs:5799
+I @ swsipvoip2-4.2.398.cjs:4955
+_onData @ swsipvoip2-4.2.398.cjs:4901
+(anonymous) @ swsipvoip2-4.2.398.cjs:14792
+10:58:19.883 index.js:356 Transitioning on event  {type: 'SDK_VOIP_CALL_IS_LARGE_GROUP', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12052
+(anonymous) @ webchat-sdk_4.2.398.esm.js:302
+(anonymous) @ webchat-sdk_4.2.398.esm.js:361
+a @ webchat-sdk_4.2.398.esm.js:84
+s @ webchat-sdk_4.2.398.esm.js:98
+(anonymous) @ webchat-sdk_4.2.398.esm.js:103
+(anonymous) @ webchat-sdk_4.2.398.esm.js:95
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12092
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14102
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_accepted @ swsipvoip2-4.2.398.cjs:9851
+(anonymous) @ swsipvoip2-4.2.398.cjs:9620
+Promise.then
+(anonymous) @ swsipvoip2-4.2.398.cjs:9619
+Promise.then
+_receiveInviteResponse @ swsipvoip2-4.2.398.cjs:9616
+(anonymous) @ swsipvoip2-4.2.398.cjs:9520
+_receiveResponse @ swsipvoip2-4.2.398.cjs:5318
+(anonymous) @ swsipvoip2-4.2.398.cjs:5300
+receiveResponse @ swsipvoip2-4.2.398.cjs:5799
+I @ swsipvoip2-4.2.398.cjs:4955
+_onData @ swsipvoip2-4.2.398.cjs:4901
+(anonymous) @ swsipvoip2-4.2.398.cjs:14792
+10:58:19.884 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.883Z | SWSIPVOIP2:MediaHandler [Session #1] muteCapture: {"audio":true,"video":true} +2ms
+10:58:19.884 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.884Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (510 bytes): ACK sips:any@10.38.100.134:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK913085Max-Forwards: 69To: <sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278698.135609.667307234From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nt7mjue88aCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6157 ACKAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +13ms
+10:58:19.885 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_CONNECTED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.885 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_CONNECTED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.885 index.js:379 Performing transition  SDK_WEBRTC_CALL_CONNECTED  :  CONNECTING  ->  ESTABLISHED
+(anonymous) @ index.js:379
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.886 description.js:608 Entry ESTABLISHED state
+(anonymous) @ description.js:608
+(anonymous) @ index.js:327
+(anonymous) @ index.js:341
+await in (anonymous)
+(anonymous) @ index.js:380
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.886 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.886Z | SWSIPVOIP2:MediaHandler [Session #1] unmuteCapture: {"audio":true,"video":true} +3ms
+10:58:19.887 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.887Z | SWSIPVOIP2:MediaHandler [Session #1] Set the play gain to: default +1ms
+10:58:19.890 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.890Z | SWSIPVOIP2:MediaHandler [Session #1] Audio channel set to: 0 +3ms
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.891 index.js:356 Transitioning on event  {type: 'COMMAND_RESUME', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:58:19.892 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.892Z | SWSIPVOIP2:MediaHandlerAudio statechange: running - stream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +13ms
+10:58:19.894 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.894Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] connectionstatechange, gathering "complete", connection: "checking" +16ms
+10:58:19.897 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.897Z | SWSIPVOIP2:MediaHandler [Session #1] Successfully starting to play renderer Element audio id: 'media-audio-webrtc-uuid-4607D05C-1063-4F34-A98F-DFC91C093B7F' / srcObj: ['Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]] '] [muted: 'true'] [paused: 'false'] [volume: '1'] +7ms
+10:58:19.897 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.897Z | SWSIPVOIP2:MediaHandler undefined%c +0ms
+10:58:19.897 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.897Z | SWSIPVOIP2:MediaHandlerAudio statechange: suspended - stream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +5ms
+10:58:19.899 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.899Z | SWSIPVOIP2:MediaHandlerAudio Audio Sink now moved to default +2ms
+10:58:19.899 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.899Z | SWSIPVOIP2:MediaHandlerAudio statechange: running - stream: Stream: 0e894548-a5d3-410f-a007-c568bc0719b9[audio ('remote audio'): 386f653a-9b9c-4c1c-a637-59da686b569e [enabled: true] [state: live]]  +0ms
+10:58:19.908 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.908Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] iceconnectionstatechange, gathering "complete", connection: "connected" (was: "checking") +14ms
+10:58:19.908 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.908Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] iceconnectionstatechange, gathering "complete", connection: "connected" +0ms
+10:58:19.912 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.912Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (585 bytes)SIP/2.0 500 Server Internal ErrorVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5669102;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: k2ttu9ku61rn9g4qcnfhContact: <sips:any@10.38.100.134:5063>Content-Type: application/jsonCSeq: 6380 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gpqfeffjdbTo: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278699.880965.104577718User-Agent: swengine v3.14 r3.14.119Content-Length: 26{"error":"INVALID_INVITE"} +28ms
+10:58:19.913 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.913Z | SWSIPVOIP2:ERROR:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio] : Server error: INVALID_INVITE +494ms
+10:58:19.976 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.976Z | SWSIPVOIP2:MediaHandler:ICE [Session #1] connectionstatechange, gathering "complete", connection: "connected" +68ms
+10:58:19.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] candidate pair | state:   succeeded | nominated: yes | local      [udp][10.37.145.99:38355] | remote     [udp][10.38.100.134:20573] | +0ms
+10:58:19.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:19.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {} +0ms
+10:58:20.039 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.039Z | SWSIPVOIP2:FloorControl Datachannel opened: open +179ms
+10:58:20.134 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.134Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +254ms
+10:58:20.134 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.134Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttulmpuk2gng3c5vqf" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:20.134 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.134Z | SWSIPVOIP2:FloorControl Unknown event: undefined +95ms
+10:58:20.134 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.134Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5454551Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=0j76g7knb8Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6158 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +222ms
+10:58:20.196 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.196Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5454551;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6158 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=0j76g7knb8participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +61ms
+10:58:20.196 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.196Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +62ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +0ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +1ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.197 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.197Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:20.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +163ms
+10:58:20.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu58uqqu8n3a6f529" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:20.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +226ms
+10:58:20.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK3891509Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=3ie02h9legCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6159 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +165ms
+10:58:20.467 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.467Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK3891509;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6159 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=3ie02h9legparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +107ms
+10:58:20.467 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.467Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +107ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +271ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.468 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.468Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:20.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +393ms
+10:58:20.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttufstqkudhbbnfbcu" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:20.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:20.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK9402850Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ake4v1qq6aCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6160 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +393ms
+10:58:20.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.919Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK9402850;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6160 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ake4v1qq6aparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:20.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.920Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:20.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.920Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +452ms
+10:58:20.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.920Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:20.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +1ms
+10:58:20.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:20.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:20.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.921Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:20.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":0,"packetsDown":0,"brateUp":0,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:20.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (4 bytes):  +74ms
+10:58:20.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:20.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Sent KeepAlive. +0ms
+10:58:21.047 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.047Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (2 bytes) +54ms
+10:58:21.047 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.047Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Clearing keep alive timeout. +0ms
+10:58:21.047 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.047Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:58:21.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:21.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu7r9qsra3iodrdpu" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:21.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:21.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5730152Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=sh576b9j7pCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6161 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +313ms
+10:58:21.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.418Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5730152;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6161 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=sh576b9j7pparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +58ms
+10:58:21.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.418Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +58ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +498ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:21.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.419Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:21.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +441ms
+10:58:21.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuvg047opvq7955ms" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:21.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:21.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK6314362Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=10hd0kiv02Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6162 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:21.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.920Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK6314362;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6162 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=10hd0kiv02participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +502ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:21.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.921Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:21.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:21.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24560,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:22.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:22.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttumcr873sflvo6a89" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:22.361 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.361Z | SWSIPVOIP2:FloorControl Unknown event: undefined +501ms
+10:58:22.361 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.361Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK7633007Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=docg6v4qcnCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6163 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +441ms
+10:58:22.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.421Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK7633007;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6163 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=docg6v4qcnparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:22.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.421Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:22.422 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.422Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:22.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +438ms
+10:58:22.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttueo1ssl3a444jpke" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:22.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.859Z | SWSIPVOIP2:FloorControl Unknown event: undefined +498ms
+10:58:22.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK6886084Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=5j4kilqm0kCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6164 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +439ms
+10:58:22.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.922Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK6886084;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6164 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=5j4kilqm0kparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +61ms
+10:58:22.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.922Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +63ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:22.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.923Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:22.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:22.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24024,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:23.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +437ms
+10:58:23.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu19aq4n2isjil0os" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:23.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +501ms
+10:58:23.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK4956294Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=mec6ur5u8gCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6165 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +439ms
+10:58:23.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.418Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK4956294;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6165 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=mec6ur5u8gparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +58ms
+10:58:23.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.419Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +59ms
+10:58:23.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +496ms
+10:58:23.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:23.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.419Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:23.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.420Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +1ms
+10:58:23.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:23.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:23.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.420Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:23.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +441ms
+10:58:23.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttugq48kff8p8dsrl1" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:23.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:23.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK2002194Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=m0o4k8950kCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6166 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:23.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.920Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK2002194;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6166 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=m0o4k8950kparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:23.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.921Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:23.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +1ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:23.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.922Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:23.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":23648,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:23.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (4 bytes):  +73ms
+10:58:23.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:23.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Sent KeepAlive. +0ms
+10:58:24.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (2 bytes) +55ms
+10:58:24.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Clearing keep alive timeout. +0ms
+10:58:24.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:58:24.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:24.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu5inqp449q3tjghl" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:24.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:24.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK2230988Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=fh71rmjonbCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6167 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +312ms
+10:58:24.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.419Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK2230988;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6167 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=fh71rmjonbparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +498ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:24.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:24.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.421Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +1ms
+10:58:24.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +440ms
+10:58:24.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttubm8u0rhogll1evl" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:24.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:24.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5150405Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gk6s0kml6nCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6168 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +441ms
+10:58:24.917 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.917Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5150405;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6168 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gk6s0kml6nparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +57ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +58ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +497ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:24.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.918Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:24.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.919Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +1ms
+10:58:24.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:24.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":23936,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:25.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +442ms
+10:58:25.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu1eojdjcp888addt" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:25.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:25.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK3397801Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=d240jutso9Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6169 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +443ms
+10:58:25.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.419Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK3397801;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6169 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=d240jutso9participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:25.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.420Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +1ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:25.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.421Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:25.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +440ms
+10:58:25.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuoiiljhddavsiqh3" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:25.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:25.861 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.861Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK4686466Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=frfdcs4n03Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6170 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:25.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.923Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK4686466;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6170 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=frfdcs4n03participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +62ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +64ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +503ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:25.924 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.924Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:25.925 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.925Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +1ms
+10:58:25.925 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.925Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:25.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:25.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24720,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:26.354 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.354Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +430ms
+10:58:26.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.355Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuc1s7v2gja34j6mp" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:26.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.355Z | SWSIPVOIP2:FloorControl Unknown event: undefined +495ms
+10:58:26.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.355Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK1788484Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1e6250celeCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6171 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +432ms
+10:58:26.414 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.414Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK1788484;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6171 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1e6250celeparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:26.415 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.415Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:26.415 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.415Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +490ms
+10:58:26.415 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.415Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:26.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.416Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +1ms
+10:58:26.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.416Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:26.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.416Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:26.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.416Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:26.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.416Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:26.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +444ms
+10:58:26.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuqsfchmjgc90tda7" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:26.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +505ms
+10:58:26.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK8381719Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=6gt1b5ntg0Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6172 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +446ms
+10:58:26.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.918Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK8381719;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6172 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=6gt1b5ntg0participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +58ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +59ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +503ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:26.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.919Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:26.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24240,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:26.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (4 bytes):  +75ms
+10:58:26.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:26.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Sent KeepAlive. +0ms
+10:58:27.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (2 bytes) +55ms
+10:58:27.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Clearing keep alive timeout. +0ms
+10:58:27.048 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.048Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:58:27.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +440ms
+10:58:27.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttud9hdrvqrsgqv5rr" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:27.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.359Z | SWSIPVOIP2:FloorControl Unknown event: undefined +499ms
+10:58:27.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.360Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5598202Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nrc2mhi5ffCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6173 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +312ms
+10:58:27.427 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.427Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5598202;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6173 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=nrc2mhi5ffparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +67ms
+10:58:27.428 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.428Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +69ms
+10:58:27.428 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.428Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +509ms
+10:58:27.428 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.428Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:27.428 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.428Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:27.428 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.428Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:27.429 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.429Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +1ms
+10:58:27.429 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.429Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:27.429 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.429Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:27.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +431ms
+10:58:27.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttucmugskn5c28b3uq" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:27.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +501ms
+10:58:27.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK3411677Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=m5e559jo7hCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6174 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +433ms
+10:58:27.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.918Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK3411677;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6174 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=m5e559jo7hparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +58ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +59ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +491ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:27.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.920Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:27.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:27.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24248,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:28.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +441ms
+10:58:28.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.360Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu2ta9pt06phnpd3c" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:28.360 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.360Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:28.361 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.361Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK9818009Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=4c9cm5jv3mCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6175 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +443ms
+10:58:28.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.419Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK9818009;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6175 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=4c9cm5jv3mparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +58ms
+10:58:28.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.420Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:28.421 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.421Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:28.854 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.854Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +434ms
+10:58:28.854 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.854Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuv8rf3gfdtc68917" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:28.855 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.855Z | SWSIPVOIP2:FloorControl Unknown event: undefined +495ms
+10:58:28.855 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.855Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK9207864Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=li27t1r940Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6176 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +436ms
+10:58:28.914 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.914Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK9207864;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6176 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=li27t1r940participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +494ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:28.915 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.915Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:28.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:28.993Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24527,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:29.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.354Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:29.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.355Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu1vjobt1nl3ot93e" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:29.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.355Z | SWSIPVOIP2:FloorControl Unknown event: undefined +500ms
+10:58:29.356 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.356Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK4863213Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=970atdto13Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6177 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:29.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.416Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK4863213;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6177 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=970atdto13participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:29.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.417Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +62ms
+10:58:29.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +502ms
+10:58:29.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:29.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.417Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:29.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.418Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +1ms
+10:58:29.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.418Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:29.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.418Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:29.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.418Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:29.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +443ms
+10:58:29.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.860Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2tturvuuudng38q3llr" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:29.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +505ms
+10:58:29.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK2091840Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=mmh9v51dc3Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6178 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +444ms
+10:58:29.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.920Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK2091840;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6178 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=mmh9v51dc3participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +503ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:29.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:29.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.922Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +1ms
+10:58:29.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":23800,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +998ms
+10:58:29.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (4 bytes):  +74ms
+10:58:29.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:29.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Sent KeepAlive. +0ms
+10:58:30.061 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.061Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (2 bytes) +68ms
+10:58:30.061 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.061Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Clearing keep alive timeout. +0ms
+10:58:30.061 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.061Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:58:30.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +438ms
+10:58:30.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.359Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttukiv155odv6jft1s" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:30.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.359Z | SWSIPVOIP2:FloorControl Unknown event: undefined +499ms
+10:58:30.359 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.359Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK9790649Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ch6g3srftaCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6179 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +298ms
+10:58:30.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.419Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK9790649;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6179 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ch6g3srftaparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +61ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +498ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:30.420 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.420Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:30.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:30.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttua24s5ds5o5olrsl" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:30.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.860Z | SWSIPVOIP2:FloorControl Unknown event: undefined +501ms
+10:58:30.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (606 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK251601Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=hap140u22gCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6180 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +441ms
+10:58:30.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.919Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (970 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK251601;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6180 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=hap140u22gparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +59ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +62ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +501ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:30.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.921Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:30.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] candidate pair | state:   succeeded | nominated: yes | local      [udp][10.37.145.99:38355] | remote     [udp][10.38.100.134:20573] | +1s
+10:58:30.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:30.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":24240,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +0ms
+10:58:31.354 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.354Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +433ms
+10:58:31.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.355Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuge292npfu341hc0" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:31.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.355Z | SWSIPVOIP2:FloorControl Unknown event: undefined +495ms
+10:58:31.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.355Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5901077Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ok62enrcpgCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6181 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +436ms
+10:58:31.415 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.415Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5901077;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6181 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=ok62enrcpgparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:31.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.417Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +62ms
+10:58:31.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +496ms
+10:58:31.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:31.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.417Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:31.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.417Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:31.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.418Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +1ms
+10:58:31.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.418Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:31.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.418Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:31.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +442ms
+10:58:31.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttupm6o8k236dfvngq" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:31.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.859Z | SWSIPVOIP2:FloorControl Unknown event: undefined +504ms
+10:58:31.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK6992783Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gmg0vpc7fiCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6182 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +445ms
+10:58:31.921 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.921Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK6992783;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6182 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gmg0vpc7fiparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +61ms
+10:58:31.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.922Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +63ms
+10:58:31.922 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.922Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +504ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +1ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:31.923 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.923Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:31.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:31.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":23808,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:32.354 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.354Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +432ms
+10:58:32.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.355Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu80rh3ea5mosscqm" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:32.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.355Z | SWSIPVOIP2:FloorControl Unknown event: undefined +496ms
+10:58:32.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.355Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5787044Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=00co4u5k4sCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6183 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +434ms
+10:58:32.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.418Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5787044;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6183 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=00co4u5k4sparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +63ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +64ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +496ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:32.419 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.419Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:32.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +440ms
+10:58:32.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.859Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu24avkl5ppdoi8el" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:32.859 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.859Z | SWSIPVOIP2:FloorControl Unknown event: undefined +504ms
+10:58:32.860 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.860Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK5237588Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gr207qtb88Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6184 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +442ms
+10:58:32.918 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.918Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK5237588;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6184 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gr207qtb88participantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +57ms
+10:58:32.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.919Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +60ms
+10:58:32.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.919Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +500ms
+10:58:32.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.919Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:32.919 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.919Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:32.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.920Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +1ms
+10:58:32.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.920Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:32.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.920Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:32.920 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.920Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +0ms
+10:58:32.991 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.991Z | SWSIPVOIP2:MediaHandlerStats [Session #1] {"audio":{"timestamp":0,"ssrcUp":646456233,"ssrcDown":-1,"packetsUp":50,"packetsDown":0,"brateUp":23608,"brateDown":0,"lossrateUp":0,"lossrateDown":0,"jitterUp":0,"indicator":5}} +1s
+10:58:32.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (4 bytes):  +76ms
+10:58:32.993 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:32.993Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Sent KeepAlive. +0ms
+10:58:33.045 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.045Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (2 bytes) +52ms
+10:58:33.045 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.045Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Clearing keep alive timeout. +0ms
+10:58:33.045 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.045Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:58:33.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.354Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +435ms
+10:58:33.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.355Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttuohss99p9cqeubca" to: "k2ttub3s2dekkiuhm4hd" +1ms
+10:58:33.355 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.355Z | SWSIPVOIP2:FloorControl Unknown event: undefined +496ms
+10:58:33.356 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.356Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK8062047Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=bo5tjku39vCall-ID: k2ttub3s2dekkiuhm4hdCSeq: 6185 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +311ms
+10:58:33.416 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.416Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (971 bytes)SIP/2.0 200 OKVia: SIP/2.0/TLS e15mpprip0lv.invalid;branch=z9hG4bK8062047;received=10.37.145.99Call-ID: k2ttub3s2dekkiuhm4hdContact: <sips:any@10.38.100.134:5063>CSeq: 6185 MESSAGEFrom: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=bo5tjku39vparticipantlist: "{\"ParticipantList\":{\"ATTENDING\":[\"12311@server.dev1.agnet.pmr-ptf.pmr\"],\"INVITED\":[\"12312@server.dev1.agnet.pmr-ptf.pmr\",\"12313@server.dev1.agnet.pmr-ptf.pmr\"]},\"GroupUsersList\":[\"group:58979\"],\"GroupNames\":{\"58979\":\"R3JvdXAgMSAoVXNlcnMgMSArIDIgKyAzKSBfIENPTlYgVEVTVA==\"},\"OnHold\":[],\"AttendingArrivalTime\":{\"12311@server.dev1.agnet.pmr-ptf.pmr\":\"2026-07-17T08:58:19Z\"},\"SessionType\":\"PoC\",\"SessionMedia\":\"audio\",\"SessionGroupId\":null,\"SessionIsCallblast\":false,\"Priorities\":[],\"SessionPriority\":0,\"isCallForwarded\":false}"To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>User-Agent: swengine v3.14 r3.14.119Content-Length: 0 +60ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Call RequestParticipantList has been successfully executed: 200 +62ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] +497ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] has been renewed +0ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12312@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] +0ms
+10:58:33.417 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.417Z | SWSIPVOIP2:Participant Updated state: Participant "12313@server.dev1.agnet.pmr-ptf.pmr" [INVITED] [previous: CREATED] has been renewed +0ms
+10:58:33.418 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.418Z | SWSIPVOIP2:Participant Updated arrival time: Participant "12311@server.dev1.agnet.pmr-ptf.pmr" [ATTENDING] [previous: CREATED] [arrivalTime: 2026-07-17T08:58:19.000Z] +1ms
+10:58:33.856 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.856Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +439ms
+10:58:33.856 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.856Z | SWSIPVOIP2:Call Session #1 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Overwriting Call-ID "k2ttu0md7lbn8vt4242s" to: "k2ttub3s2dekkiuhm4hd" +0ms
+10:58:33.856 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.856Z | SWSIPVOIP2:FloorControl Unknown event: undefined +501ms
+10:58:33.857 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:58:33.857Z | SWSIPVOIP2:Transport #1: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS e15mpprip0lv.invalid;branch=z9hG4bK9997521Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12311@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=f1too3q5q2Call-ID: k2ttub3s2dekkiuhm4hdCSeq: 6186 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +441ms
+10:58:33.909 SWSIPVOIP2.disableLog()
+10:58:33.913 undefined

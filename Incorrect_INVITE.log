@@ -1,0 +1,519 @@
+10:54:00.359 SWSIPVOIP2.enableLog()
+10:54:00.363 undefined
+10:54:03.533 description.js:256 Entry IDLE state
+(anonymous) @ description.js:256
+(anonymous) @ index.js:327
+(anonymous) @ index.js:417
+(anonymous) @ index.js:75
+(anonymous) @ index.js:66
+(anonymous) @ methods.js:33
+(anonymous) @ methods.js:178
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:54:03.648 index.js:356 Transitioning on event  {type: 'COMMAND_START', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:54:03.654 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.654Z | SWSIPVOIP2:Transport #2: [url: undefined]: New transport +0ms
+10:54:03.655 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.655Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063]: connect() +1ms
+10:54:03.655 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.655Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063]: Connecting +0ms
+10:54:03.659 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.659Z | SWSIPVOIP2:Call  - subscriberMsisdn: 12312 +0ms
+10:54:03.659 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.659Z | SWSIPVOIP2:Call  - subscriberLastname: _conv test +0ms
+10:54:03.659 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.659Z | SWSIPVOIP2:Call  - subscriberFirstname: User 2 +0ms
+10:54:03.659 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.659Z | SWSIPVOIP2:Call  - getSubscriberToken +0ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.659Z | SWSIPVOIP2:Call  - swTo: group:58979 +0ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - sessionId: group:58979 +1ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - sessionType: PoC +0ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - sessionMedia: audio +0ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - autoReconnect: true +0ms
+10:54:03.660 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - captureOptions: +0ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.660Z | SWSIPVOIP2:Call  - playOptions: +0ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.661Z | SWSIPVOIP2:Call    - rendererRemote: Element audio id: 'media-audio-webrtc-uuid-BE266E03-D2F2-4177-96E6-D51E6C658A70' / srcObj: ['No stream'] [muted: 'false'] [paused: 'true'] [volume: '1'] +1ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.661Z | SWSIPVOIP2:Call    - shouldRecord: true +0ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.661Z | SWSIPVOIP2:Call    - gain: undefined +0ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.661Z | SWSIPVOIP2:Call    - sinkId: undefined +0ms
+10:54:03.661 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.661Z | SWSIPVOIP2:Call    - useHTMLElementForAudio: undefined +0ms
+10:54:03.663 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.663Z | SWSIPVOIP2:MediaHandler [Session #2] new MediaHandler +0ms
+10:54:03.663 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.663Z | SWSIPVOIP2:MediaHandler [Session #2] Setting renderer remote: Element audio id: 'media-audio-webrtc-uuid-BE266E03-D2F2-4177-96E6-D51E6C658A70' / srcObj: ['No stream'] [muted: 'false'] [paused: 'true'] [volume: '1'] +0ms
+10:54:03.664 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.664Z | SWSIPVOIP2:ERROR:MediaHandler [Session #2] Cannot unmute play: no RTC session nor remote mediastream +0ms
+10:54:03.664 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.664Z | SWSIPVOIP2:FloorControl No indicator change as no MpcClient has been created +0ms
+10:54:03.665 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.665Z | SWSIPVOIP2:FloorControl Set Functional Alias can not be set, missing MpcClient +1ms
+10:54:03.666 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.666Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Got susbcriber token +5ms
+10:54:03.689 index.js:379 Performing transition  COMMAND_START  :  IDLE  ->  CONNECTING
+(anonymous) @ index.js:379
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:54:03.689 description.js:409 Entry CONNECTING state
+(anonymous) @ description.js:409
+(anonymous) @ index.js:327
+(anonymous) @ index.js:341
+await in (anonymous)
+(anonymous) @ index.js:380
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ methods.js:109
+(anonymous) @ methods.js:179
+await in (anonymous)
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:54:03.690 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:03.690Z | SWSIPVOIP2:ERROR:MediaHandler [Session #2] Cannot mute play: no RTC session nor remote mediastream +26ms
+10:54:03.987 index.js:356 Transitioning on event  {type: 'NODE_EVENT_EMITTED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+value @ webchat-sdk_4.2.398.esm.js:17984
+value @ webchat-sdk_4.2.398.esm.js:18076
+settingsUpdate @ webchat-sdk_4.2.398.esm.js:18166
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18393
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18392
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18858
+(anonymous) @ loader.js:272
+(anonymous) @ index.js:29
+setTimeout
+(anonymous) @ index.js:46
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+baseWatchOptions.call @ chunk-7TQ6PCU5.js?v=e5ead889:3213
+job @ chunk-7TQ6PCU5.js?v=e5ead889:1563
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+flushJobs @ chunk-7TQ6PCU5.js?v=e5ead889:2790
+Promise.then
+queueFlush @ chunk-7TQ6PCU5.js?v=e5ead889:2705
+queueJob @ chunk-7TQ6PCU5.js?v=e5ead889:2700
+effect2.scheduler @ chunk-7TQ6PCU5.js?v=e5ead889:7583
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:1861
+endBatch @ chunk-7TQ6PCU5.js?v=e5ead889:660
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:936
+add @ chunk-7TQ6PCU5.js?v=e5ead889:1152
+(anonymous) @ unindexed.js:56
+(anonymous) @ unordered.js:53
+(anonymous) @ conducer.js:61
+(anonymous) @ methods.js:31
+(anonymous) @ methods.js:159
+(anonymous) @ talkgroups.js:107
+(anonymous) @ talkgroups.js:153
+await in (anonymous)
+(anonymous) @ talkgroups.js:164
+(anonymous) @ Group.vue:95
+await in (anonymous)
+(anonymous) @ Group.vue:101
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+invoker @ chunk-7TQ6PCU5.js?v=e5ead889:11943
+10:54:04.006 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.006Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Connected open +351ms
+10:54:04.006 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.006Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: clearing connection timeout 885 +0ms
+10:54:04.006 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.006Z | SWSIPVOIP2:UA Transport connects to wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 +0ms
+10:54:04.006 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.006Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Arming keep alive timeout to 30s. +0ms
+10:54:04.015 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.015Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Got mediastream: Stream: ba8266e4-89ab-4d53-81dd-c96a3250d81d[audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  +349ms
+10:54:04.017 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.017Z | SWSIPVOIP2:MediaHandlerAudio Creating MediaHandlerAudio for stream: Stream: ba8266e4-89ab-4d53-81dd-c96a3250d81d[audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  +0ms
+10:54:04.017 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.017Z | SWSIPVOIP2:MediaHandler [Session #2] Track [audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  settings: {	"autoGainControl": true,	"channelCount": 1,	"deviceId": "default",	"echoCancellation": true,	"groupId": "0c5e989cabe538ba214d8de338e66394b7ac56f3fd588132f8c955bb8f5e655e",	"latency": 0.01,	"noiseSuppression": true,	"sampleRate": 48000,	"sampleSize": 16,	"voiceIsolation": false} +354ms
+10:54:04.017 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.017Z | SWSIPVOIP2:MediaHandler [Session #2] Track [audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  capabilities: {	"autoGainControl": [		true,		false	],	"channelCount": {		"max": 2,		"min": 1	},	"deviceId": "default",	"echoCancellation": [		true,		false,		"remote-only"	],	"groupId": "0c5e989cabe538ba214d8de338e66394b7ac56f3fd588132f8c955bb8f5e655e",	"latency": {		"max": 0.021333,		"min": 0.01	},	"noiseSuppression": [		true,		false	],	"sampleRate": {		"max": 48000,		"min": 48000	},	"sampleSize": {		"max": 16,		"min": 16	},	"voiceIsolation": [		true,		false	]} +0ms
+10:54:04.017 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.017Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  Using mediastream: Stream: ba8266e4-89ab-4d53-81dd-c96a3250d81d[audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  +2ms
+10:54:04.019 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.019Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: connect() +13ms
+10:54:04.019 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.019Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: WebSocket wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 is already connected, recall onconnect +0ms
+10:54:04.024 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.024Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +201 | mpc_client_set_ssrc | Client ssrc updated to 743110116 +0ms
+10:54:04.024 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.024Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +236 | mpc_client_set_identity | Client [id: 12312] [ssrc: 743110116] identity updated to: '12312' +0ms
+10:54:04.024 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.024Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +240 | mpc_client_set_priority | Client [id: 12312] [ssrc: 743110116] priority updated to: 0 +0ms
+10:54:04.024 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.024Z | SWSIPVOIP2:FloorControl:MCPTT mpc_client.c +293 | mpc_client_set_indicator | Client [id: 12312] [ssrc: 743110116] indicator updated to: [0x8000] +0ms
+10:54:04.025 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.025Z | SWSIPVOIP2:FloorControl Created MpcClient: Client [id: 12312] [ssrc: 743110116] [state: no permission (1)] with lib 0.4.26 (7a2f387e7e7968586fe15193dd4cf1309272c29a) +360ms
+10:54:04.025 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.025Z | SWSIPVOIP2:FloorControl Setting datachannel 'mcptt' (-) +0ms
+10:54:04.027 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.027Z | SWSIPVOIP2:MediaHandlerAudio statechange: running - stream: Stream: ba8266e4-89ab-4d53-81dd-c96a3250d81d[audio ('Default'): 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757b [enabled: true] [state: live]]  +10ms
+10:54:04.028 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.028Z | SWSIPVOIP2:MediaHandler:ICE [Session #2] negotiationneeded, gathering "new", connection: "new" +0ms
+10:54:04.030 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.030Z | SWSIPVOIP2:MediaHandler:ICE [Session #2] signalingstatechange, gathering "new", connection: "new" +2ms
+10:54:04.030 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.030Z | SWSIPVOIP2:MediaHandler:ICE [Session #2] icegatheringstatechange, gathering "gathering", connection: "new" +0ms
+10:54:04.148 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.148Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  messagetype: SERVICE/RequestParticipantList +131ms
+10:54:04.148 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.148Z | SWSIPVOIP2:FloorControl Unknown event: undefined +123ms
+10:54:04.148 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.148Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (607 bytes): MESSAGE sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS gn0955o9a7rb.invalid;branch=z9hG4bK6439279Max-Forwards: 69To: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12312@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gbcj762q9pCall-ID: 4lrnhuhuntg2jiq7nl5sCSeq: 5574 MESSAGEMessageType: SERVICEServiceMessageType: RequestParticipantListContent-Type: text/plainAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 0 +129ms
+10:54:04.157 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.157Z | SWSIPVOIP2:MediaHandler:ICE [Session #2] icegatheringstatechange, gathering "complete", connection: "new" +127ms
+10:54:04.159 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.159Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)] now sending (2025 bytes): INVITE sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063 SIP/2.0Via: SIP/2.0/WSS gn0955o9a7rb.invalid;branch=z9hG4bK3965097Max-Forwards: 69To: <sip:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>From: <sip:12312@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=emttr68an4Call-ID: 4lrnht14v01fn2errdg9CSeq: 3359 INVITEtoken: oauth:MjdkOTcxMmRiZDA2OGI5NjNkY2I1NDQwNDRmMmU4Njg3NzkzMjlmYzNmNWI0MTRiZDdkYWQ2NzcyMmVhYzlhNwsessionid: group:58979sessionmedia: audiosessiontype: PoCswto: group:58979Contact: <sip:nji6fltu@gn0955o9a7rb.invalid;transport=ws;ob>Content-Type: application/sdpAllow: INVITE,ACK,CANCEL,BYE,UPDATE,MESSAGE,OPTIONS,REFER,INFO,NOTIFY,SUBSCRIBESupported: ice,replaces,outboundUser-Agent: chrome 150 JsSIP/3.12.0 SWSIPVOIP2.js/4.2.381Content-Length: 1222v=0o=- 4140275547217543118 2 IN IP4 127.0.0.1s=-t=0 0a=extmap-allow-mixeda=msid-semantic: WMS ba8266e4-89ab-4d53-81dd-c96a3250d81da=group:BUNDLE 0 1m=audio 9 UDP/TLS/RTP/SAVPF 111 110c=IN IP4 0.0.0.0a=rtpmap:111 opus/48000/2a=rtpmap:110 telephone-event/48000a=fmtp:111 minptime=10;useinbandfec=1;stereo=0;maxaveragebitrate=28000a=rtcp:9 IN IP4 0.0.0.0a=rtcp-fb:111 transport-cca=setup:actpassa=mid:0a=msid:ba8266e4-89ab-4d53-81dd-c96a3250d81d 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757ba=sendrecva=ice-ufrag:Yzbga=ice-pwd:+xEddIBlMKh+cNrIrN5qicika=fingerprint:sha-256 67:20:F5:05:94:63:3C:D9:09:03:AD:D3:1B:6D:29:87:AB:AC:7C:67:FC:F5:C7:59:20:38:3B:17:95:62:D8:81a=ice-options:tricklea=ssrc:2101806885 cname:jjBxH4SiNADdCQQ1a=ssrc:2101806885 msid:ba8266e4-89ab-4d53-81dd-c96a3250d81d 56bfb7f3-4fb0-44b6-bc10-1fa5b8ff757ba=rtcp-muxa=rtcp-rsizem=application 9 UDP/DTLS/SCTP webrtc-datachannelc=IN IP4 0.0.0.0a=setup:actpassa=mid:1a=ice-ufrag:Yzbga=ice-pwd:+xEddIBlMKh+cNrIrN5qicika=fingerprint:sha-256 67:20:F5:05:94:63:3C:D9:09:03:AD:D3:1B:6D:29:87:AB:AC:7C:67:FC:F5:C7:59:20:38:3B:17:95:62:D8:81a=ice-options:tricklea=sctp-port:5000a=max-message-size:262144 +11ms
+10:54:04.159 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.159Z | SWSIPVOIP2:MediaHandler:ICE [Session #2] icecandidate, gathering "complete", connection: "new": ? +2ms
+10:54:04.179 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.179Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: OPEN (1)]: Received message (586 bytes)SIP/2.0 500 Server Internal ErrorVia: SIP/2.0/TLS gn0955o9a7rb.invalid;branch=z9hG4bK6439279;received=10.37.145.99Allow: ACK,BYE,CANCEL,INFO,INVITE,MESSAGE,NOTIFY,OPTIONS,PING,REFER,REGISTER,SUBSCRIBE,UPDATECall-ID: 4lrnhuhuntg2jiq7nl5sContact: <sips:any@10.38.100.134:5063>Content-Type: application/jsonCSeq: 5574 MESSAGEFrom: <sip:12312@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=gbcj762q9pTo: <sips:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063>;tag=1784278444.167785.1773269340User-Agent: swengine v3.14 r3.14.119Content-Length: 26{"error":"INVALID_INVITE"} +20ms
+10:54:04.181 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.181Z | SWSIPVOIP2:ERROR:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio] : Server error: INVALID_INVITE +0ms
+10:54:04.182 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.182Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: CLOSED (3)]: Closed close wasClean: false, code: Abnormal Closure (1006), reason:  +3ms
+10:54:04.182 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.182Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: CLOSED (3)]: Clearing keep alive timeout. +0ms
+10:54:04.182 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.182Z | SWSIPVOIP2:Transport #2: [url: wss:swsmartms-voip@server.dev1.agnet.pmr-ptf.pmr:5063] [websocket state: CLOSED (3)]: WebSocket abrupt disconnection +0ms
+10:54:04.184 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.184Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  onFailed: Canceled (start requested 167 ms ago) +36ms
+10:54:04.184 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.184Z | SWSIPVOIP2:Call Session #2 [sessionId: group:58979] [sessionType: PoC] [sessionMedia: audio]  has been canceled, stopping now +0ms
+10:54:04.184 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.184Z | SWSIPVOIP2:MediaHandler [Session #2] Destroying MediaHandler to remote +167ms
+10:54:04.185 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.185Z | SWSIPVOIP2:MediaHandler [Session #2] Destroying MediaHandler +1ms
+10:54:04.186 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.186Z | SWSIPVOIP2:FloorControl Clearing datachannel +38ms
+10:54:04.187 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_FAILED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12120
+(anonymous) @ swsipvoip2-4.2.398.cjs:7138
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14182
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_failed @ swsipvoip2-4.2.398.cjs:9860
+terminate @ swsipvoip2-4.2.398.cjs:8969
+onTransportError @ swsipvoip2-4.2.398.cjs:9189
+(anonymous) @ swsipvoip2-4.2.398.cjs:9514
+(anonymous) @ swsipvoip2-4.2.398.cjs:5297
+onTransportError @ swsipvoip2-4.2.398.cjs:5753
+A @ swsipvoip2-4.2.398.cjs:4943
+_onDisconnect @ swsipvoip2-4.2.398.cjs:4883
+(anonymous) @ swsipvoip2-4.2.398.cjs:14789
+10:54:04.187 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_FAILED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12120
+(anonymous) @ swsipvoip2-4.2.398.cjs:7138
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14182
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_failed @ swsipvoip2-4.2.398.cjs:9860
+terminate @ swsipvoip2-4.2.398.cjs:8969
+onTransportError @ swsipvoip2-4.2.398.cjs:9189
+(anonymous) @ swsipvoip2-4.2.398.cjs:9514
+(anonymous) @ swsipvoip2-4.2.398.cjs:5297
+onTransportError @ swsipvoip2-4.2.398.cjs:5753
+A @ swsipvoip2-4.2.398.cjs:4943
+_onDisconnect @ swsipvoip2-4.2.398.cjs:4883
+(anonymous) @ swsipvoip2-4.2.398.cjs:14789
+10:54:04.188 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.188Z | SWSIPVOIP2:MediaHandler [Session #2] Destroying MediaHandler to remote +3ms
+10:54:04.188 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.188Z | SWSIPVOIP2:MediaHandler [Session #2] Destroying MediaHandler +0ms
+10:54:04.188 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.188Z | SWSIPVOIP2:FloorControl Clearing datachannel +2ms
+10:54:04.189 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.189Z | SWSIPVOIP2:Call Stopped Jssipua Connected to: sip:server.dev1.agnet.pmr-ptf.pmr:5063;transport=ws +5ms
+10:54:04.189 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.189Z | SWSIPVOIP2:MediaHandlerAudio Audio Context is now closed +162ms
+10:54:04.196 index.js:379 Performing transition  SDK_WEBRTC_CALL_FAILED  :  CONNECTING  ->  STOPPED
+(anonymous) @ index.js:379
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12120
+(anonymous) @ swsipvoip2-4.2.398.cjs:7138
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14182
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_failed @ swsipvoip2-4.2.398.cjs:9860
+terminate @ swsipvoip2-4.2.398.cjs:8969
+onTransportError @ swsipvoip2-4.2.398.cjs:9189
+(anonymous) @ swsipvoip2-4.2.398.cjs:9514
+(anonymous) @ swsipvoip2-4.2.398.cjs:5297
+onTransportError @ swsipvoip2-4.2.398.cjs:5753
+A @ swsipvoip2-4.2.398.cjs:4943
+_onDisconnect @ swsipvoip2-4.2.398.cjs:4883
+(anonymous) @ swsipvoip2-4.2.398.cjs:14789
+10:54:04.197 description.js:816 Entry STOPPED state
+(anonymous) @ description.js:816
+(anonymous) @ index.js:327
+(anonymous) @ index.js:341
+await in (anonymous)
+(anonymous) @ index.js:380
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12120
+(anonymous) @ swsipvoip2-4.2.398.cjs:7138
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14182
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_failed @ swsipvoip2-4.2.398.cjs:9860
+terminate @ swsipvoip2-4.2.398.cjs:8969
+onTransportError @ swsipvoip2-4.2.398.cjs:9189
+(anonymous) @ swsipvoip2-4.2.398.cjs:9514
+(anonymous) @ swsipvoip2-4.2.398.cjs:5297
+onTransportError @ swsipvoip2-4.2.398.cjs:5753
+A @ swsipvoip2-4.2.398.cjs:4943
+_onDisconnect @ swsipvoip2-4.2.398.cjs:4883
+(anonymous) @ swsipvoip2-4.2.398.cjs:14789
+10:54:04.199 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_FAILED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:54:04.247 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_LIST_UPDATED', detail: Array(0)}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:54:04.247 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_LIST_UPDATED', detail: Array(0)}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:54:04.247 index.js:356 Transitioning on event  {type: 'SDK_WEBRTC_CALL_LIST_UPDATED', detail: Array(0)}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
+10:54:04.249 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.249Z | SWSIPVOIP2:FloorControl Datachannel close: close +61ms
+10:54:04.250 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:04.250Z | SWSIPVOIP2:MediaHandlerAudio statechange: closed - stream: Stream: ba8266e4-89ab-4d53-81dd-c96a3250d81d +61ms
+10:54:04.514 index.js:356 Transitioning on event  {type: 'NODE_EVENT_EMITTED', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+value @ webchat-sdk_4.2.398.esm.js:17984
+value @ webchat-sdk_4.2.398.esm.js:18076
+settingsUpdate @ webchat-sdk_4.2.398.esm.js:18166
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18393
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18392
+(anonymous) @ webchat-sdk_4.2.398.esm.js:18858
+(anonymous) @ loader.js:272
+(anonymous) @ index.js:29
+setTimeout
+(anonymous) @ index.js:46
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+callWithAsyncErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2598
+baseWatchOptions.call @ chunk-7TQ6PCU5.js?v=e5ead889:3213
+job @ chunk-7TQ6PCU5.js?v=e5ead889:1563
+callWithErrorHandling @ chunk-7TQ6PCU5.js?v=e5ead889:2591
+flushJobs @ chunk-7TQ6PCU5.js?v=e5ead889:2790
+Promise.then
+queueFlush @ chunk-7TQ6PCU5.js?v=e5ead889:2705
+queueJob @ chunk-7TQ6PCU5.js?v=e5ead889:2700
+effect2.scheduler @ chunk-7TQ6PCU5.js?v=e5ead889:7583
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:1861
+endBatch @ chunk-7TQ6PCU5.js?v=e5ead889:660
+trigger @ chunk-7TQ6PCU5.js?v=e5ead889:936
+delete @ chunk-7TQ6PCU5.js?v=e5ead889:1191
+(anonymous) @ unindexed.js:64
+(anonymous) @ unordered.js:56
+(anonymous) @ conducer.js:69
+(anonymous) @ methods.js:34
+(anonymous) @ index.js:239
+(anonymous) @ index.js:340
+await in (anonymous)
+(anonymous) @ index.js:380
+await in (anonymous)
+(anonymous) @ index.js:392
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ index.js:402
+(anonymous) @ events.js:156
+(anonymous) @ index.js:46
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:12120
+(anonymous) @ swsipvoip2-4.2.398.cjs:7138
+(anonymous) @ swsipvoip2-4.2.398.cjs:14065
+(anonymous) @ swsipvoip2-4.2.398.cjs:14182
+(anonymous) @ swsipvoip2-4.2.398.cjs:7134
+_failed @ swsipvoip2-4.2.398.cjs:9860
+terminate @ swsipvoip2-4.2.398.cjs:8969
+onTransportError @ swsipvoip2-4.2.398.cjs:9189
+(anonymous) @ swsipvoip2-4.2.398.cjs:9514
+(anonymous) @ swsipvoip2-4.2.398.cjs:5297
+onTransportError @ swsipvoip2-4.2.398.cjs:5753
+A @ swsipvoip2-4.2.398.cjs:4943
+_onDisconnect @ swsipvoip2-4.2.398.cjs:4883
+(anonymous) @ swsipvoip2-4.2.398.cjs:14789
+10:54:06.187 swsipvoip2-4.2.398.cjs:11569 2026-07-17T08:54:06.187Z | SWSIPVOIP2:Call Stopped Jssipua Connected to: sip:server.dev1.agnet.pmr-ptf.pmr:5063;transport=ws +2s
+10:54:14.630 SWSIPVOIP2.disableLog()
+10:54:14.634 undefined
+10:58:08.174 index.js:356 Transitioning on event  {type: 'SDK_ORGANIZATION_DATA_UPDATE', detail: {…}}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+(anonymous) @ p-queue.js?v=e5ead889:746
+add @ p-queue.js?v=e5ead889:662
+(anonymous) @ index.js:53
+(anonymous) @ StreamwideEventBus.js:42
+value @ webchat-sdk_4.2.398.esm.js:7546
+(anonymous) @ webchat-sdk_4.2.398.esm.js:17872
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5201
+value @ webchat-sdk_4.2.398.esm.js:6760
+value @ webchat-sdk_4.2.398.esm.js:6741
+value @ webchat-sdk_4.2.398.esm.js:6721
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5201
+(anonymous) @ webchat-sdk_4.2.398.esm.js:7086
+Promise.then
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5215
+value @ webchat-sdk_4.2.398.esm.js:7085
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5201
+(anonymous) @ webchat-sdk_4.2.398.esm.js:444
+value @ webchat-sdk_4.2.398.esm.js:6372
+value @ webchat-sdk_4.2.398.esm.js:7075
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5201
+value @ webchat-sdk_4.2.398.esm.js:6008
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5201
+(anonymous) @ webchat-sdk_4.2.398.esm.js:444
+value @ webchat-sdk_4.2.398.esm.js:5298
+value @ webchat-sdk_4.2.398.esm.js:5292
+(anonymous) @ webchat-sdk_4.2.398.esm.js:5659
+10:58:08.177 index.js:356 Transitioning on event  {type: 'SDK_CONTACT_USERS_UPDATED', detail: Array(75)}
+(anonymous) @ index.js:356
+(anonymous) @ ServerMachine.js:58
+(anonymous) @ index.js:36
+(anonymous) @ index.js:56
+run @ p-queue.js?v=e5ead889:685
+#tryToStartAnother @ p-queue.js?v=e5ead889:565
+#next @ p-queue.js?v=e5ead889:482
+(anonymous) @ p-queue.js?v=e5ead889:713
