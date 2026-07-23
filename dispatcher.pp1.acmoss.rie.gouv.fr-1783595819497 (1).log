@@ -1,0 +1,2106 @@
+index-C48hxgdR.js:184 2026-07-09T11:14:19.410Z : 4.0.288 -  SDK - ContactManager - getSelfGroupsMembership
+index-C48hxgdR.js:184 2026-07-09T11:14:19.411Z : 4.0.288 -  SDK - backward compatibility for - getToken
+index-C48hxgdR.js:184 2026-07-09T11:14:19.411Z : 4.0.288 -  SDK - backward compatibility for - getSwapiURL
+index-C48hxgdR.js:184 2026-07-09T11:14:29.441Z : 4.0.288 -  SDK - ConversationManager - getConversationList
+index-C48hxgdR.js:184 2026-07-09T11:14:29.441Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:14:29.739Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.739Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  SDK - Message - id :  4779
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:14:48Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e60e5b47-0790-4334-b432-8bb4627480d4","id":4779,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1233,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  SDK - Conversation - id :  1233
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  {"conversationId":1233,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:14:48Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:14:48Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e60e5b47-0790-4334-b432-8bb4627480d4","id":4779,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1233,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[4788],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"e60e5b47-0790-4334-b432-8bb4627480d4","creationDate":"2026-07-09T10:14:44Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  SDK - SocketManager - Sending event type MESSAGE_ACK
+index-C48hxgdR.js:184 2026-07-09T11:14:29.740Z : 4.0.288 -  SDK - SocketManager - Connection event data: {"eventType":"MESSAGE_ACK","payload":{"messageId":4779}}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'NODE_EVENT_EMITTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.741Z : 4.0.288 -  SDK - EventManager - NODE_EVENT_EMITTED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:29.741Z : 4.0.288 -  SDK - ConversationManager - getConversationList
+index-C48hxgdR.js:184 2026-07-09T11:14:29.741Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:14:29.978Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.979Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.979Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.979Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.980Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - Message - id :  4764
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:13:47Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","id":4764,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1224,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - Conversation - id :  1224
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  {"conversationId":1224,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:13:47Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:13:47Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","id":4764,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1224,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","creationDate":"2026-07-09T10:13:23Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - Message - id :  4761
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - Conversation - id :  1131
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  {"conversationId":1131,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:13:12Z","recipients":["33703"],"conversationType":1,"isExternal":false,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":3,"adminRole":2,"availableOnlyRecipients":false,"creationDate":"2026-07-08T07:59:17Z","emergencyAlertState":0,"alerter":null,"name":"MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.981Z : 4.0.288 -  SDK - Message - id :  4758
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:12:45Z","isHidden":false,"isOutgoing":true,"messageUuid":"266450bf-2af2-4822-bc4e-b016ea0a5067","id":4758,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1215,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Conversation - id :  1215
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"conversationId":1215,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:09:41Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:12:45Z","isHidden":false,"isOutgoing":true,"messageUuid":"266450bf-2af2-4822-bc4e-b016ea0a5067","id":4758,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1215,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":6,"adminRole":2,"availableOnlyRecipients":false,"groupId":"f35a6ad0-d37f-4079-9f57-f9ffb673e598","creationDate":"2026-07-09T10:09:40Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Message - id :  4722
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:52:09Z","isHidden":false,"isOutgoing":true,"mediaType":"audio","messageUuid":"bc6c2bad-0549-4959-9a9c-be14868222fc","id":4722,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":1,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1125,"title":"MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Conversation - id :  1125
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"conversationId":1125,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:52:09Z","recipients":["33704"],"conversationType":1,"isExternal":false,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:52:09Z","isHidden":false,"isOutgoing":true,"mediaType":"audio","messageUuid":"bc6c2bad-0549-4959-9a9c-be14868222fc","id":4722,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":1,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1125,"title":"MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":17,"adminRole":2,"availableOnlyRecipients":false,"creationDate":"2026-07-08T06:50:39Z","emergencyAlertState":0,"alerter":null,"name":"MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Message - id :  4725
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:52:40Z","isHidden":false,"isOutgoing":true,"messageUuid":"1c345dcc-b08e-455f-be2b-73af9dea7629","id":4725,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1206,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Conversation - id :  1206
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  {"conversationId":1206,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:52:01Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:52:40Z","isHidden":false,"isOutgoing":true,"messageUuid":"1c345dcc-b08e-455f-be2b-73af9dea7629","id":4725,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1206,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"eeee0d80-6677-4b64-8d62-e33feb009a24","creationDate":"2026-07-09T08:52:01Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.982Z : 4.0.288 -  SDK - Message - id :  4686
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:29:39Z","isHidden":false,"isOutgoing":true,"messageUuid":"00a8224a-9911-4c8d-b135-ecc1008f25a1","id":4686,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1203,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - Conversation - id :  1203
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  {"conversationId":1203,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:29:09Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:29:39Z","isHidden":false,"isOutgoing":true,"messageUuid":"00a8224a-9911-4c8d-b135-ecc1008f25a1","id":4686,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1203,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"9c52b5f1-9c40-4acb-88e2-6a6f6c39980d","creationDate":"2026-07-09T08:29:09Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - Message - id :  4650
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:28:09Z","isHidden":false,"isOutgoing":true,"messageUuid":"139a9832-e2e6-4b51-85fb-c083e9aad087","id":4650,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1197,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - Conversation - id :  1197
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  {"conversationId":1197,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:27:38Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:28:09Z","isHidden":false,"isOutgoing":true,"messageUuid":"139a9832-e2e6-4b51-85fb-c083e9aad087","id":4650,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1197,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"1d611a91-a385-498e-b30c-27c4ad72f99c","creationDate":"2026-07-09T08:27:37Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - Message - id :  4611
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:14:59Z","isHidden":false,"isOutgoing":true,"messageUuid":"1465474b-05ea-456f-a4a3-c5283899d75b","id":4611,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1191,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.983Z : 4.0.288 -  SDK - Conversation - id :  1191
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  {"conversationId":1191,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:14:24Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:14:59Z","isHidden":false,"isOutgoing":true,"messageUuid":"1465474b-05ea-456f-a4a3-c5283899d75b","id":4611,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1191,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"e8c672d2-a47c-45b0-b07c-78f33914d5e5","creationDate":"2026-07-09T08:14:23Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - Message - id :  4554
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:13:02Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","id":4554,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1185,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - Conversation - id :  1185
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  {"conversationId":1185,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:13:30Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:13:02Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","id":4554,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1185,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":3,"adminRole":2,"availableOnlyRecipients":false,"groupId":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","creationDate":"2026-07-09T08:12:54Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - Message - id :  4536
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:45:27Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","id":4536,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1176,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - Conversation - id :  1176
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  {"conversationId":1176,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:45:27Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:45:27Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","id":4536,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1176,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","creationDate":"2026-07-09T07:45:24Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB2","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - SocketManager - Sending event type MESSAGE_ACK
+index-C48hxgdR.js:184 2026-07-09T11:14:29.984Z : 4.0.288 -  SDK - SocketManager - Connection event data: {"eventType":"MESSAGE_ACK","payload":{"messageId":4764}}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'NODE_EVENT_EMITTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.985Z : 4.0.288 -  SDK - EventManager - NODE_EVENT_EMITTED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:29.990Z : 4.0.288 -  SDK - getPictureUrl - contact does not have a picture,return promise rejection with CONTACT_NoPicture error code
+index-C48hxgdR.js:184 2026-07-09T11:14:29.990Z : 4.0.288 -  SDK - getPictureUrl - contact does not have a picture,return promise rejection with CONTACT_NoPicture error code
+index-C48hxgdR.js:184 2026-07-09T11:14:29.993Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:14:29.993Z : 4.0.288 -  SDK - VoipCallManager - creating media element for webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA
+index-C48hxgdR.js:184 2026-07-09T11:14:29.994Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:14:29.994Z : 4.0.288 -  SDK - VoipCallOptions -  {"autoReconnect":true,"webrtcUuid":"webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA","callType":"livestream","mediaConstraints":{"audio":false,"video":true},"outgoing":true,"external":false,"isEmergencyCall":false,"callOnlyAvailableUsers":false,"sessionType":"livestream","sessionMedia":"video","broadcast":false,"playOptions":{"rendererRemote":{},"shouldRecord":true},"captureOptions":{"shouldRecord":true},"availableOnlyRecipients":false,"swTo":"33703@server.pp1.acmoss.rie.gouv.fr","subscriberMsisdn":"660100803","subscriberFirstname":"DispatcherDPT21","subscriberLastname":"PP1","subscriberAlias":""}
+index-C48hxgdR.js:184 2026-07-09T11:14:29.994Z : 4.0.288 -  SDK - VOIP CALL - voip library available
+index-C48hxgdR.js:184 2026-07-09T11:14:29.995Z : 4.0.288 -  SDK - Voip Call - searching for conversation
+index-C48hxgdR.js:184 2026-07-09T11:14:29.995Z : 4.0.288 -  SDK - ConversationManager - _getConversationByRecipients
+index-C48hxgdR.js:184 2026-07-09T11:14:29.995Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:14:30.598Z : 4.0.288 -  SDK - ConversationManager - _getConversationByRecipients conversation found - 1131
+index-C48hxgdR.js:184 2026-07-09T11:14:30.598Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  SDK - Message - id :  4761
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  SDK - Conversation - id :  1131
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  {"conversationId":1131,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:13:12Z","recipients":["33703"],"conversationType":1,"isExternal":false,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":3,"adminRole":2,"availableOnlyRecipients":false,"creationDate":"2026-07-08T07:59:17Z","emergencyAlertState":0,"alerter":null,"broadcastGroupCallType":false,"name":"MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  SDK -VoipCallOptions - setConversation id + 1131
+index-C48hxgdR.js:184 2026-07-09T11:14:30.599Z : 4.0.288 -  SDK - VoipCallOptions -  {"autoReconnect":true,"webrtcUuid":"webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA","callType":"livestream","mediaConstraints":{"audio":false,"video":true},"outgoing":true,"external":false,"isEmergencyCall":false,"callOnlyAvailableUsers":false,"sessionType":"livestream","sessionMedia":"video","broadcast":false,"playOptions":{"rendererRemote":{},"shouldRecord":true},"captureOptions":{"shouldRecord":true},"availableOnlyRecipients":false,"swTo":"33703@server.pp1.acmoss.rie.gouv.fr","subscriberMsisdn":"660100803","subscriberFirstname":"DispatcherDPT21","subscriberLastname":"PP1","subscriberAlias":""}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.451Z : 4.0.288 -  SDK - VoipCall - attended users are 660100803@server.pp1.acmoss.rie.gouv.fr
+index-C48hxgdR.js:184 2026-07-09T11:14:34.452Z : 4.0.288 -  SDK - VoipCall - invited users are 33703@server.pp1.acmoss.rie.gouv.fr
+index-C48hxgdR.js:184 2026-07-09T11:14:34.452Z : 4.0.288 -  SDK - VoipCall - current number of participants: 0
+index-C48hxgdR.js:184 2026-07-09T11:14:34.452Z : 4.0.288 -  SDK - VoipCall - _setupStackEvents - STARTED
+index-C48hxgdR.js:184 2026-07-09T11:14:34.453Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.453Z : 4.0.288 -  SDK - VoipCallManager - _transformCallTypeFromVoipToBackend - callType livestream changed to livestream.
+index-C48hxgdR.js:184 2026-07-09T11:14:34.453Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:14:34.453Z : 4.0.288 -  SDK - VoipCallManager - register call {"isTrusted":false}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.454Z : 4.0.288 -  SDK - ConversationManager - getConversationList
+index-C48hxgdR.js:184 2026-07-09T11:14:34.454Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_WEBRTC_CALL_CONNECTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.455Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_CONNECTED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:34.774Z : 4.0.288 -  SDK - VoipCall - attended users are 660100803@server.pp1.acmoss.rie.gouv.fr
+index-C48hxgdR.js:184 2026-07-09T11:14:34.774Z : 4.0.288 -  SDK - VoipCall - invited users are 33703@server.pp1.acmoss.rie.gouv.fr
+index-C48hxgdR.js:184 2026-07-09T11:14:34.774Z : 4.0.288 -  SDK - VoipCall - current number of participants: 0
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'Participant', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.818Z : 4.0.288 -  SDK - EventManager - Participant, ParticipantReached
+index-C48hxgdR.js:184 2026-07-09T11:14:34.820Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.820Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.820Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.820Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.821Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.822Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.822Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.822Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.822Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.822Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - Message - id :  4779
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:14:48Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e60e5b47-0790-4334-b432-8bb4627480d4","id":4779,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1233,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - Conversation - id :  1233
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  {"conversationId":1233,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:14:48Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:14:48Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e60e5b47-0790-4334-b432-8bb4627480d4","id":4779,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1233,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[4788],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"e60e5b47-0790-4334-b432-8bb4627480d4","creationDate":"2026-07-09T10:14:44Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - Message - id :  4764
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:13:47Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","id":4764,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1224,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.823Z : 4.0.288 -  SDK - Conversation - id :  1224
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  {"conversationId":1224,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:13:47Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:13:47Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","id":4764,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1224,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"528edca0-f4e5-4cbb-b510-1c0f56c9c669","creationDate":"2026-07-09T10:13:23Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  SDK - Message - id :  4761
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  SDK - Conversation - id :  1131
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  {"conversationId":1131,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:13:12Z","recipients":["33703"],"conversationType":1,"isExternal":false,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":3,"adminRole":2,"availableOnlyRecipients":false,"creationDate":"2026-07-08T07:59:17Z","emergencyAlertState":0,"alerter":null,"name":"MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  SDK - Message - id :  4758
+index-C48hxgdR.js:184 2026-07-09T11:14:34.824Z : 4.0.288 -  {"call":null,"date":"2026-07-09T10:12:45Z","isHidden":false,"isOutgoing":true,"messageUuid":"266450bf-2af2-4822-bc4e-b016ea0a5067","id":4758,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1215,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  SDK - Conversation - id :  1215
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  {"conversationId":1215,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T10:09:41Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T10:12:45Z","isHidden":false,"isOutgoing":true,"messageUuid":"266450bf-2af2-4822-bc4e-b016ea0a5067","id":4758,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1215,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":6,"adminRole":2,"availableOnlyRecipients":false,"groupId":"f35a6ad0-d37f-4079-9f57-f9ffb673e598","creationDate":"2026-07-09T10:09:40Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  SDK - Message - id :  4722
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:52:09Z","isHidden":false,"isOutgoing":true,"mediaType":"audio","messageUuid":"bc6c2bad-0549-4959-9a9c-be14868222fc","id":4722,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":1,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1125,"title":"MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  SDK - Conversation - id :  1125
+index-C48hxgdR.js:184 2026-07-09T11:14:34.825Z : 4.0.288 -  {"conversationId":1125,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:52:09Z","recipients":["33704"],"conversationType":1,"isExternal":false,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:52:09Z","isHidden":false,"isOutgoing":true,"mediaType":"audio","messageUuid":"bc6c2bad-0549-4959-9a9c-be14868222fc","id":4722,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":1,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1125,"title":"MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":17,"adminRole":2,"availableOnlyRecipients":false,"creationDate":"2026-07-08T06:50:39Z","emergencyAlertState":0,"alerter":null,"name":"MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - Message - id :  4725
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:52:40Z","isHidden":false,"isOutgoing":true,"messageUuid":"1c345dcc-b08e-455f-be2b-73af9dea7629","id":4725,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1206,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - Conversation - id :  1206
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  {"conversationId":1206,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:52:01Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:52:40Z","isHidden":false,"isOutgoing":true,"messageUuid":"1c345dcc-b08e-455f-be2b-73af9dea7629","id":4725,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1206,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"eeee0d80-6677-4b64-8d62-e33feb009a24","creationDate":"2026-07-09T08:52:01Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - Message - id :  4686
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:29:39Z","isHidden":false,"isOutgoing":true,"messageUuid":"00a8224a-9911-4c8d-b135-ecc1008f25a1","id":4686,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1203,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  SDK - Conversation - id :  1203
+index-C48hxgdR.js:184 2026-07-09T11:14:34.826Z : 4.0.288 -  {"conversationId":1203,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:29:09Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:29:39Z","isHidden":false,"isOutgoing":true,"messageUuid":"00a8224a-9911-4c8d-b135-ecc1008f25a1","id":4686,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1203,"title":"ALERTE CRITIQUE ! MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"9c52b5f1-9c40-4acb-88e2-6a6f6c39980d","creationDate":"2026-07-09T08:29:09Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB2 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - Message - id :  4650
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:28:09Z","isHidden":false,"isOutgoing":true,"messageUuid":"139a9832-e2e6-4b51-85fb-c083e9aad087","id":4650,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1197,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - Conversation - id :  1197
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  {"conversationId":1197,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:27:38Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:28:09Z","isHidden":false,"isOutgoing":true,"messageUuid":"139a9832-e2e6-4b51-85fb-c083e9aad087","id":4650,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1197,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"1d611a91-a385-498e-b30c-27c4ad72f99c","creationDate":"2026-07-09T08:27:37Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - Message - id :  4611
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:14:59Z","isHidden":false,"isOutgoing":true,"messageUuid":"1465474b-05ea-456f-a4a3-c5283899d75b","id":4611,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1191,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.827Z : 4.0.288 -  SDK - Conversation - id :  1191
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  {"conversationId":1191,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:14:24Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:14:59Z","isHidden":false,"isOutgoing":true,"messageUuid":"1465474b-05ea-456f-a4a3-c5283899d75b","id":4611,"sender":{"msisdn":"660100803","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"DispatcherDPT21 PP1","adminRole":2},"status":0,"type":"ALERTMODEOFF","wasMessageRead":true,"text":null,"conversation":1191,"title":"ALERTE CRITIQUE ! MobileB1 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":7,"adminRole":2,"availableOnlyRecipients":false,"groupId":"e8c672d2-a47c-45b0-b07c-78f33914d5e5","creationDate":"2026-07-09T08:14:23Z","emergencyAlertState":4,"emergencyAlertType":"critical","name":"ALERTE CRITIQUE ! MobileB1 PP1","persistOnServer":false,"isEmergencyCall":false,"alertType":1,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  SDK - Message - id :  4554
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  {"call":null,"date":"2026-07-09T08:13:02Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","id":4554,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1185,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  SDK - Conversation - id :  1185
+index-C48hxgdR.js:184 2026-07-09T11:14:34.828Z : 4.0.288 -  {"conversationId":1185,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T08:13:30Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T08:13:02Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","id":4554,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1185,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":3,"adminRole":2,"availableOnlyRecipients":false,"groupId":"51d17af8-3051-4134-b9d0-bd012d7fb6a4","creationDate":"2026-07-09T08:12:54Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  SDK - Message - id :  4536
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:45:27Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","id":4536,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1176,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  SDK - Conversation - id :  1176
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  {"conversationId":1176,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:45:27Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:45:27Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","id":4536,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1176,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"ea61e127-16f9-4a9a-b711-66cfd3ee3ff7","creationDate":"2026-07-09T07:45:24Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB2","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.829Z : 4.0.288 -  SDK - Message - id :  4524
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:44:03Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"3d2ce4f2-ef03-4ff7-9577-bbf53514ee86","id":4524,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1167,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  SDK - Conversation - id :  1167
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  {"conversationId":1167,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:44:03Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:44:03Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"3d2ce4f2-ef03-4ff7-9577-bbf53514ee86","id":4524,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1167,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"3d2ce4f2-ef03-4ff7-9577-bbf53514ee86","creationDate":"2026-07-09T07:43:58Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  SDK - Message - id :  4512
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:39:23Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e5498c4a-39d7-45d2-b265-d6f94a1aab43","id":4512,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1158,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  SDK - Conversation - id :  1158
+index-C48hxgdR.js:184 2026-07-09T11:14:34.830Z : 4.0.288 -  {"conversationId":1158,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:39:23Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:39:23Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"e5498c4a-39d7-45d2-b265-d6f94a1aab43","id":4512,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1158,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"e5498c4a-39d7-45d2-b265-d6f94a1aab43","creationDate":"2026-07-09T07:39:19Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB2","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.831Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.831Z : 4.0.288 -  SDK - Message - id :  4500
+index-C48hxgdR.js:184 2026-07-09T11:14:34.831Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:39:00Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"4c9790f6-8976-409b-a1df-439a2114ebba","id":4500,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1149,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.831Z : 4.0.288 -  SDK - Conversation - id :  1149
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  {"conversationId":1149,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:39:00Z","recipients":["33704"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:39:00Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"4c9790f6-8976-409b-a1df-439a2114ebba","id":4500,"sender":{"msisdn":"33704","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB1 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1149,"title":"Appel d'urgence - MobileB1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"4c9790f6-8976-409b-a1df-439a2114ebba","creationDate":"2026-07-09T07:38:32Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB1","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33704"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  SDK - Message - id :  4488
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  {"call":null,"date":"2026-07-09T07:37:19Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"7887212d-145d-4043-a495-b287c74b658c","id":4488,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1140,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  SDK - Conversation - id :  1140
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  {"conversationId":1140,"conferenceCallInProgress":false,"callInProgress":false,"lastModificationDate":"2026-07-09T07:37:19Z","recipients":["33703"],"conversationType":3,"isExternal":false,"isInGroup":true,"isClose":false,"lastMessage":{"call":null,"date":"2026-07-09T07:37:19Z","isHidden":false,"isOutgoing":false,"mediaType":"audio","messageUuid":"7887212d-145d-4043-a495-b287c74b658c","id":4488,"sender":{"msisdn":"33703","fqdn":"server.pp1.acmoss.rie.gouv.fr","name":"MobileB2 PP1","adminRole":2},"status":null,"type":"WALKIETALKIE","wasMessageRead":true,"text":null,"conversation":1140,"title":"Appel d'urgence - MobileB2","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null},"unreadMessagesList":[],"whiteboardInProgress":false,"messagesCount":2,"adminRole":2,"availableOnlyRecipients":false,"groupId":"7887212d-145d-4043-a495-b287c74b658c","creationDate":"2026-07-09T07:37:14Z","emergencyAlertState":6,"emergencyAlertType":"critical","name":"Appel d'urgence - MobileB2","persistOnServer":false,"isEmergencyCall":false,"alertType":null,"isBroadcastGroupCall":false,"admins":["33703"]}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  SDK - SocketManager - Sending event type MESSAGE_ACK
+index-C48hxgdR.js:184 2026-07-09T11:14:34.832Z : 4.0.288 -  SDK - SocketManager - Connection event data: {"eventType":"MESSAGE_ACK","payload":{"messageId":4779}}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'NODE_EVENT_EMITTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:34.834Z : 4.0.288 -  SDK - EventManager - NODE_EVENT_EMITTED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:36.574Z : 4.0.288 -  SDK - SocketManager - onExternalSubscriberDataUpdate - receiving EXTERNAL_SUBSCRIBER_DATA_UPDATE
+index-C48hxgdR.js:184 2026-07-09T11:14:36.575Z : 4.0.288 -  SDK - SocketManager - onExternalSubscriberDataUpdate - {"msisdn":"33703","deviceType":"mobile","geolocation":{"date":"2026-07-09T11:14:32+0000","reason":"ontracking","status":2,"latitude":48.79816498,"longitude":1.97108791,"accuracy":27,"address":"","speed":2,"userAvailability":0,"altitude":null,"updateIntervalDistanceBased":100,"applicationData":"{\"operationalInformation\":{\"mcxTalkGroup\":\"\",\"operationalMode\":\"MCX\",\"timestamp\":\"2026-07-09T11:53:06.958447+02:00[Europe/Paris]\"}}"},"deviceInfo":{"date":"2026-07-09T11:14:32Z","batteryLevel":54,"signalStrength":4,"networkType":"WIFI","mobileCountryCode":"NA","mobileNetworkCode":"NA","wifi":{"macAddress":null}},"eventType":"EXTERNAL_SUBSCRIBER_DATA_UPDATE","lastTimeStamp":1783595666981,"newTimeStamp":1783595673125}
+index-C48hxgdR.js:184 2026-07-09T11:14:36.575Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:36.575Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_EXTERNAL_SUBSCRIBER_DATA_UPDATE', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:36.576Z : 4.0.288 -  SDK - EventManager - SDK_EXTERNAL_SUBSCRIBER_DATA_UPDATE, 
+index-C48hxgdR.js:184 2026-07-09T11:14:38.907Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:38.909Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:14:38.909Z : 4.0.288 -  SDK - VoipCall - search if user is already in otherParticipants c {_isExternal: false, _alias: '', _email: '', _isconnected: false, _isGuest: false, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:38.909Z : 4.0.288 -  []
+index-C48hxgdR.js:184 2026-07-09T11:14:38.909Z : 4.0.288 -  SDK - VoipCall - _onParticipantEvent - PARTICIPANT_JOINED - 33703
+index-C48hxgdR.js:184 2026-07-09T11:14:38.910Z : 4.0.288 -  SDK - VoipCall - current number of participants: 1
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_VOIP_CALL_PARTICIPANT_JOINED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:38.911Z : 4.0.288 -  SDK - EventManager - SDK_VOIP_CALL_PARTICIPANT_JOINED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:38.911Z : 4.0.288 -  SDK - EventManager - SDK_ALL_PARTICIPANTS_JOINED, 
+index-C48hxgdR.js:184 2026-07-09T11:14:38.911Z : 4.0.288 -  SDK - VoipCall - all participants have joined
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_ALL_PARTICIPANTS_JOINED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:52.368Z : 4.0.288 -  SDK - SocketManager - onExternalSubscriberDataUpdate - receiving EXTERNAL_SUBSCRIBER_DATA_UPDATE
+index-C48hxgdR.js:184 2026-07-09T11:14:52.368Z : 4.0.288 -  SDK - SocketManager - onExternalSubscriberDataUpdate - {"msisdn":"33703","deviceType":"mobile","geolocation":{"date":"2026-07-09T11:14:48+0000","reason":"ontracking","status":2,"latitude":48.79829265,"longitude":1.97114263,"accuracy":6,"address":"","speed":0,"userAvailability":0,"altitude":null,"updateIntervalDistanceBased":100,"applicationData":"{\"operationalInformation\":{\"mcxTalkGroup\":\"\",\"operationalMode\":\"MCX\",\"timestamp\":\"2026-07-09T11:53:06.958447+02:00[Europe/Paris]\"}}"},"deviceInfo":{"date":"2026-07-09T11:14:48Z","batteryLevel":54,"signalStrength":4,"networkType":"WIFI","mobileCountryCode":"NA","mobileNetworkCode":"NA","wifi":{"macAddress":null}},"eventType":"EXTERNAL_SUBSCRIBER_DATA_UPDATE","lastTimeStamp":1783595673125,"newTimeStamp":1783595688914}
+index-C48hxgdR.js:184 2026-07-09T11:14:52.368Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:14:52.369Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_EXTERNAL_SUBSCRIBER_DATA_UPDATE', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:14:52.371Z : 4.0.288 -  SDK - EventManager - SDK_EXTERNAL_SUBSCRIBER_DATA_UPDATE, 
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_VOIP_CALL_PARTICIPANT_LEFT', target: div.event-manager, currentTarget: null, …}isTrusted: falsebubbles: falsecancelBubble: falsecancelable: falsecomposed: falsecurrentTarget: nulldefaultPrevented: falsedetail: {webrtcUuid: 'webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA', participant: c}eventPhase: 0returnValue: truesrcElement: div.event-managertarget: div.event-managertimeStamp: 4884803.5type: "SDK_VOIP_CALL_PARTICIPANT_LEFT"[[Prototype]]: CustomEvent
+index-C48hxgdR.js:184 2026-07-09T11:15:01.115Z : 4.0.288 -  SDK - EventManager - SDK_VOIP_CALL_PARTICIPANT_LEFT, 
+index-C48hxgdR.js:184 2026-07-09T11:15:01.116Z : 4.0.288 -  SDK - VoipCall - current number of participants: 0
+index-C48hxgdR.js:184 2026-07-09T11:15:01.116Z : 4.0.288 -  SDK - VoipCall - all participants have left the call, no more participants event will be sent
+index-C48hxgdR.js:184 2026-07-09T11:15:01.116Z : 4.0.288 -  SDK - EventManager - SDK_NO_MORE_PARTICIPANTS, 
+index-DEs5wXOU.js:1 sm callcontrol.__KHrE: transition prohibited
+isAuthorized @ index-DEs5wXOU.js:1
+await in isAuthorized
+transition @ index-DEs5wXOU.js:1
+await in transition
+(anonymous) @ index-DEs5wXOU.js:1
+handleEvent @ index-CD-kPd8e.js:1
+(anonymous) @ index-CD-kPd8e.js:1
+(anonymous) @ index-C48hxgdR.js:223
+yc @ index-C48hxgdR.js:223
+(anonymous) @ index-C48hxgdR.js:223
+add @ index-C48hxgdR.js:223
+trigger @ index-CD-kPd8e.js:1
+(anonymous) @ index-DEs5wXOU.js:1
+Ht @ conversations-BKjVdEZY.js:1
+r @ conversations-BKjVdEZY.js:1
+handleEvent @ index-CD-kPd8e.js:1
+(anonymous) @ index-CD-kPd8e.js:1
+(anonymous) @ index-C48hxgdR.js:223
+yc @ index-C48hxgdR.js:223
+(anonymous) @ index-C48hxgdR.js:223
+add @ index-C48hxgdR.js:223
+trigger @ index-CD-kPd8e.js:1
+s.dispatchEvent @ StreamwideEventBus-D7YoG-30.js:2
+value @ index-C48hxgdR.js:184
+value @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+nt @ index-C48hxgdR.js:186
+m @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+a.emit @ index-C48hxgdR.js:93
+newEvent @ index-C48hxgdR.js:180
+mParticipants.onevent @ index-C48hxgdR.js:180
+Zr.onServiceMessageParticipant @ index-C48hxgdR.js:180
+onServiceMessage @ index-C48hxgdR.js:180
+onMessage @ index-C48hxgdR.js:180
+a.emit @ index-C48hxgdR.js:93
+value @ index-C48hxgdR.js:51
+value @ index-C48hxgdR.js:22
+value @ index-C48hxgdR.js:22
+value @ index-C48hxgdR.js:51
+be @ index-C48hxgdR.js:51
+value @ index-C48hxgdR.js:38
+onMessage @ index-C48hxgdR.js:180
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_NO_MORE_PARTICIPANTS', target: div.event-manager, currentTarget: null, …}
+index-DEs5wXOU.js:1 sm callcontrol.__KHrE: transition prohibited
+isAuthorized @ index-DEs5wXOU.js:1
+await in isAuthorized
+transition @ index-DEs5wXOU.js:1
+await in transition
+(anonymous) @ index-DEs5wXOU.js:1
+handleEvent @ index-CD-kPd8e.js:1
+(anonymous) @ index-CD-kPd8e.js:1
+(anonymous) @ index-C48hxgdR.js:223
+yc @ index-C48hxgdR.js:223
+by @ index-C48hxgdR.js:223
+(anonymous) @ index-C48hxgdR.js:223
+await in (anonymous)
+yc @ index-C48hxgdR.js:223
+(anonymous) @ index-C48hxgdR.js:223
+add @ index-C48hxgdR.js:223
+trigger @ index-CD-kPd8e.js:1
+(anonymous) @ index-DEs5wXOU.js:1
+Ht @ conversations-BKjVdEZY.js:1
+r @ conversations-BKjVdEZY.js:1
+handleEvent @ index-CD-kPd8e.js:1
+(anonymous) @ index-CD-kPd8e.js:1
+(anonymous) @ index-C48hxgdR.js:223
+yc @ index-C48hxgdR.js:223
+(anonymous) @ index-C48hxgdR.js:223
+add @ index-C48hxgdR.js:223
+trigger @ index-CD-kPd8e.js:1
+s.dispatchEvent @ StreamwideEventBus-D7YoG-30.js:2
+value @ index-C48hxgdR.js:184
+value @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+nt @ index-C48hxgdR.js:186
+m @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+(anonymous) @ index-C48hxgdR.js:186
+a.emit @ index-C48hxgdR.js:93
+newEvent @ index-C48hxgdR.js:180
+mParticipants.onevent @ index-C48hxgdR.js:180
+Zr.onServiceMessageParticipant @ index-C48hxgdR.js:180
+onServiceMessage @ index-C48hxgdR.js:180
+onMessage @ index-C48hxgdR.js:180
+a.emit @ index-C48hxgdR.js:93
+value @ index-C48hxgdR.js:51
+value @ index-C48hxgdR.js:22
+value @ index-C48hxgdR.js:22
+value @ index-C48hxgdR.js:51
+be @ index-C48hxgdR.js:51
+value @ index-C48hxgdR.js:38
+onMessage @ index-C48hxgdR.js:180
+index-C48hxgdR.js:184 2026-07-09T11:15:09.875Z : 4.0.288 -  SDK - GeolocationManager - subscriberLocationFilter
+index-C48hxgdR.js:184 2026-07-09T11:15:09.875Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:15:09.875Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:15:09.875Z : 4.0.288 -  SDK - backward compatibility for - getSwapiURL
+index-C48hxgdR.js:184 2026-07-09T11:15:09.875Z : 4.0.288 -  SDK - backward compatibility for - getToken
+conversations-BKjVdEZY.js:1 call timed out webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA
+handler @ conversations-BKjVdEZY.js:1
+(anonymous) @ index-DEs5wXOU.js:1
+b @ interval-BnOZ9IPW.js:1
+j @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+requestAnimationFrame
+m @ interval-BnOZ9IPW.js:1
+A @ interval-BnOZ9IPW.js:1
+y @ interval-BnOZ9IPW.js:1
+index-C48hxgdR.js:184 2026-07-09T11:15:19.197Z : 4.0.288 -  SDK - VoipCall - User hangup.
+index-C48hxgdR.js:184 2026-07-09T11:15:19.197Z : 4.0.288 -  SDK - VoipCall - Destroying the call:  webrtc-uuid-F0656046-C1A3-4150-AC48-86A6321859BA
+index-C48hxgdR.js:184 2026-07-09T11:15:19.197Z : 4.0.288 -  SDK - VoipCall - Stopping active call stack.
+index-C48hxgdR.js:184 2026-07-09T11:15:19.212Z : 4.0.288 -  SDK - VoipCall - _setupStackEvents - STOPPED
+index-C48hxgdR.js:184 2026-07-09T11:15:19.213Z : 4.0.288 -  SDK - VoipCall - SWSIPVOIP2.Call.Event.STOPPEDThe current incoming call stack has stopped with reason bye_sent and error SUCCESS
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_WEBRTC_CALL_STOPPED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.214Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_STOPPED, 
+index-C48hxgdR.js:184 2026-07-09T11:15:19.214Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_FAILED, SDK_WEBRTC_CALL_STOPPED_SUCCESS
+index-C48hxgdR.js:184 2026-07-09T11:15:19.214Z : 4.0.288 -  SDK - MessageManager - getMessages
+index-C48hxgdR.js:184 2026-07-09T11:15:19.214Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_LIST_UPDATED, 
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - VoipCall - _setupStackEvents - STOPPED
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - VoipCall - SWSIPVOIP2.Call.Event.STOPPEDThe current incoming call stack has stopped with reason bye_sent and error SUCCESS
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_STOPPED, 
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_FAILED, SDK_WEBRTC_CALL_STOPPED_SUCCESS
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - MessageManager - getMessages
+index-C48hxgdR.js:184 2026-07-09T11:15:19.215Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:15:19.216Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_LIST_UPDATED, 
+index-C48hxgdR.js:184 2026-07-09T11:15:19.216Z : 4.0.288 -  SDK - EventManager - SDK_WEBRTC_CALL_LIST_UPDATED, 
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_WEBRTC_CALL_FAILED', target: div.event-manager, currentTarget: null, …}
+VM672:1 CustomEvent {isTrusted: false, detail: Array(3), type: 'SDK_WEBRTC_CALL_LIST_UPDATED', target: div.event-manager, currentTarget: null, …}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_WEBRTC_CALL_STOPPED', target: div.event-manager, currentTarget: null, …}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'SDK_WEBRTC_CALL_FAILED', target: div.event-manager, currentTarget: null, …}
+VM672:1 CustomEvent {isTrusted: false, detail: Array(3), type: 'SDK_WEBRTC_CALL_LIST_UPDATED', target: div.event-manager, currentTarget: null, …}
+VM672:1 CustomEvent {isTrusted: false, detail: Array(3), type: 'SDK_WEBRTC_CALL_LIST_UPDATED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.485Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.485Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  SDK - MessageManager - message list for id=1131 off=0 - rec=100
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  SDK - Message - id :  4761
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  {"call":{"duration":46,"isMissed":false},"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  SDK - Message - id :  4728
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  {"call":{"duration":28,"isMissed":false},"date":"2026-07-09T10:09:31Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"c7d44305-7fa5-4250-8730-417265af9c05","id":4728,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.486Z : 4.0.288 -  SDK - Message - id :  4428
+index-C48hxgdR.js:184 2026-07-09T11:15:19.487Z : 4.0.288 -  {"call":null,"date":"2026-07-08T07:59:16Z","isHidden":false,"isOutgoing":false,"mediaType":"location","messageUuid":"6cce336d-c3ff-4bef-8b61-7803facade9c","id":4428,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"DISPLAY","wasMessageRead":true,"text":"","conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":{}}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.487Z : 4.0.288 -  SDK - SocketManager - Sending event type CALL_UPDATE_REQUEST
+index-C48hxgdR.js:184 2026-07-09T11:15:19.487Z : 4.0.288 -  SDK - SocketManager - Connection event data: {"eventType":"CALL_UPDATE_REQUEST","payload":{"messageId":4761,"callDuration":44}}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'NODE_EVENT_EMITTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.488Z : 4.0.288 -  SDK - EventManager - NODE_EVENT_EMITTED, 
+index-C48hxgdR.js:184 2026-07-09T11:15:19.583Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - ContactManager - searchSingleContact
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - MessageManager - message list for id=1131 off=0 - rec=100
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - Message - id :  4761
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  {"call":{"duration":46,"isMissed":false},"date":"2026-07-09T10:13:12Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"dda677a3-d409-4576-88e0-b39c94a4c414","id":4761,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - Message - id :  4728
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  {"call":{"duration":28,"isMissed":false},"date":"2026-07-09T10:09:31Z","isHidden":false,"isOutgoing":false,"mediaType":"audiovideo","messageUuid":"c7d44305-7fa5-4250-8730-417265af9c05","id":4728,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"FREECALL","wasMessageRead":true,"text":null,"conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":null}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  SDK - Message - id :  4428
+index-C48hxgdR.js:184 2026-07-09T11:15:19.584Z : 4.0.288 -  {"call":null,"date":"2026-07-08T07:59:16Z","isHidden":false,"isOutgoing":false,"mediaType":"location","messageUuid":"6cce336d-c3ff-4bef-8b61-7803facade9c","id":4428,"sender":{"isGroup":false,"firstName":"MobileB2","lastName":"PP1","alias":"","cugTimestamp":"1783590767092255","isReachable":true,"msisdn":"33703","type":"user","email":"","position":"","isFavorite":false,"userConnectedStatus":true,"userCustomStatus":"","isGuest":false,"operationalStatus":6,"pictureTimestamp":0,"availableOnlyReception":false,"isExternal":false,"priority":0,"userAvailability":0,"roleIcon":false,"isUserGroupAdmin":false,"isUserGroupCreator":false},"status":null,"type":"DISPLAY","wasMessageRead":true,"text":"","conversation":1131,"title":"MobileB2 PP1","deliveryReportsCounts":null,"requiresAck":false,"wasAck":false,"wasPlayed":false,"requestReadReceipt":false,"ackCountSuccess":0,"location":{}}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.585Z : 4.0.288 -  SDK - SocketManager - Sending event type CALL_UPDATE_REQUEST
+index-C48hxgdR.js:184 2026-07-09T11:15:19.585Z : 4.0.288 -  SDK - SocketManager - Connection event data: {"eventType":"CALL_UPDATE_REQUEST","payload":{"messageId":4761,"callDuration":44}}
+VM672:1 CustomEvent {isTrusted: false, detail: {…}, type: 'NODE_EVENT_EMITTED', target: div.event-manager, currentTarget: null, …}
+index-C48hxgdR.js:184 2026-07-09T11:15:19.585Z : 4.0.288 -  SDK - EventManager - NODE_EVENT_EMITTED, 
+index-C48hxgdR.js:184 2026-07-09T11:16:09.878Z : 4.0.288 -  SDK - GeolocationManager - subscriberLocationFilter
+index-C48hxgdR.js:184 2026-07-09T11:16:09.878Z : 4.0.288 -  SDK - backward compatibility for - _checkLogged
+index-C48hxgdR.js:184 2026-07-09T11:16:09.878Z : 4.0.288 -  SDK - backward compatibility for - getConfiguration
+index-C48hxgdR.js:184 2026-07-09T11:16:09.878Z : 4.0.288 -  SDK - backward compatibility for - getSwapiURL
+index-C48hxgdR.js:184 2026-07-09T11:16:09.878Z : 4.0.288 -  SDK - backward compatibility for - getToken
